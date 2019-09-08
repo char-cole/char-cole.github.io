@@ -263,16 +263,16 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #f7eccd;
+  color: #eddebb;
 }
 a:hover {
   color: #ebd8a4;
 }
 a.primary {
-  color: #e34d5e;
+  color: #e35666;
 }
 a.primary:hover {
-  color: #c42d3e;
+  color: #cc3666;
 }
 
 /* Buttons
@@ -320,8 +320,8 @@ input[type='submit'].button-primary,
 input[type='reset'].button-primary,
 input[type='button'].button-primary {
   color: #fff;
-  background-color: #e34d5e;
-  border-color: #e34d5e;
+  background-color: #e35666;
+  border-color: #e35666;
 }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -334,8 +334,8 @@ input[type='submit'].button-primary:focus,
 input[type='reset'].button-primary:focus,
 input[type='button'].button-primary:focus {
   color: #fff;
-  background-color: #c42d3e;
-  border-color: #c42d3e;
+  background-color: #cc3666;
+  border-color: #cc3666;
 }
 
 /* Forms
@@ -384,7 +384,7 @@ input[type='url']:focus,
 input[type='password']:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #e34d5e;
+  border: 1px solid #e35666;
   outline: 0;
 }
 label,
