@@ -1,7 +1,7 @@
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
   background-repeat: no-repeat;
-  color: #eddebb;
+  color: #fccbad;
 }
 
 main.container {
@@ -55,6 +55,10 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+nav a.primary:hover .hover {
+  color: #cc3666;
 }
 
 nav h5 {
