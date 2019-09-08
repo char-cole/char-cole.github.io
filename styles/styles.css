@@ -120,6 +120,10 @@ nav .hamburger:before {
   width: 100%;
 }
 
+footer small {
+  opacity: 0.67;
+}
+
 #bio {
   min-height: 10rem;
   height: calc(100vh - 95px);
