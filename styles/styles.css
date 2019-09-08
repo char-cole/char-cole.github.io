@@ -32,12 +32,8 @@ p.mx-auto {
   text-align: center;
 }
 
-.text-large {
-  font-size: 1.75rem;
-}
-
-.vh1 p.text-large {
-  line-height: 2rem;
+.container p {
+  font-size: 1.8rem;
 }
 
 .text-bold {
@@ -122,6 +118,11 @@ nav .hamburger:before {
 
 footer small {
   opacity: 0.67;
+}
+
+h3 {
+  max-width: 46.2rem;
+  margin: 0 auto 3.14rem;
 }
 
 #bio {
