@@ -263,10 +263,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #fccbad;
+  color: #fbefbf;
 }
 a:hover {
-  color: #ebb28f;
+  color: #dec25f;
 }
 a.primary {
   color: #e35666;

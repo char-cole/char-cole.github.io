@@ -1,7 +1,7 @@
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
   background-repeat: no-repeat;
-  color: #fccbad;
+  color: #fbefbf;
 }
 
 main.container {
@@ -17,8 +17,9 @@ main.container {
   height: 1vh;
 }
 
-.mt-10 {
-  margin-top: 10rem;
+main#index .row p {
+  margin-top: 3.14rem;
+  margin-bottom: 3.14rem;
 }
 
 p.mx-auto {
@@ -33,7 +34,18 @@ p.mx-auto {
 
 .text-large {
   font-size: 1.75rem;
+}
+
+.vh1 p.text-large {
   line-height: 2rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.serif {
+  font-family: 'Martel', serif;
 }
 
 .primary {
@@ -50,7 +62,7 @@ p.mx-auto {
 
 nav {
   border-bottom: 1px solid #e35666;
-  box-shadow: 0 1px #eddebb;
+  box-shadow: 0 1px #fbefbf;
 }
 
 nav a {
@@ -89,7 +101,7 @@ nav .logo {
   top: 0.15em;
 }
 
-.hamburger {
+nav .hamburger {
   border-bottom: 0.2em solid #eddebb;
   border-top: 0.2em solid #eddebb;
   display: inline-block;
@@ -99,7 +111,7 @@ nav .logo {
   width: 1.25em;
 }
 
-.hamburger:before {
+nav .hamburger:before {
   border-top: 0.2em solid #eddebb;
   content: '';
   left: 0px;
@@ -108,8 +120,34 @@ nav .logo {
   width: 100%;
 }
 
+#bio {
+  min-height: 10rem;
+  height: calc(100vh - 95px);
+  position: relative;
+  top: 1px;
+  background: linear-gradient(
+    rgba(1, 1, 1, 1),
+    rgba(1, 1, 1, 1),
+    rgba(2, 2, 2, 0.9),
+    rgba(3, 3, 3, 0.8),
+    rgba(5, 5, 5, 0.2),
+    rgba(8, 8, 8, 0.1),
+    rgba(13, 13, 13, 0),
+    rgba(21, 21, 21, 0)
+  );
+  padding: 3rem 1rem 0;
+}
+
+#bio p {
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 767px) {
   .hamburger {
     display: none;
+  }
+
+  #bio {
+    padding: 5.12rem 0 0;
   }
 }
