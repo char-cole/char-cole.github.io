@@ -1,10 +1,11 @@
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
   background-repeat: no-repeat;
+  background-position: top;
   color: #fbefbf;
 }
 
-main.container {
+main#index.container {
   padding-top: 10rem;
 }
 
@@ -13,8 +14,10 @@ main.container {
   bottom: 0;
 }
 
-.vh1 {
-  height: 1vh;
+.full-height {
+  height: calc(100vh - 12rem);
+  position: relative;
+  top: 1px;
 }
 
 main#index .row p {
@@ -22,9 +25,12 @@ main#index .row p {
   margin-bottom: 3.14rem;
 }
 
-p.mx-auto {
+.mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+p.mx-auto {
   max-width: 767px;
 }
 
@@ -38,6 +44,10 @@ p.mx-auto {
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-nowrap {
+  white-space: nowrap;
 }
 
 .serif {
@@ -73,21 +83,25 @@ nav h5 {
   margin: 0;
 }
 
-nav ul {
+ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-family: 'Martel';
   font-weight: bold;
   justify-content: space-evenly;
   margin: 0.5rem 0 1rem;
 }
 
-nav ul li {
+ul {
+  font-family: 'Martel';
+  font-weight: bold;
+}
+
+ul li {
   margin: 0;
 }
 
-nav ul li a {
+ul li a {
   margin-left: -0.5rem;
 }
 
@@ -95,25 +109,6 @@ nav .logo {
   height: 1em;
   position: relative;
   top: 0.15em;
-}
-
-nav .hamburger {
-  border-bottom: 0.2em solid #eddebb;
-  border-top: 0.2em solid #eddebb;
-  display: inline-block;
-  height: 0.8em;
-  margin-right: 0.3em;
-  position: relative;
-  width: 1.25em;
-}
-
-nav .hamburger:before {
-  border-top: 0.2em solid #eddebb;
-  content: '';
-  left: 0px;
-  position: absolute;
-  top: 0.3em;
-  width: 100%;
 }
 
 footer small {
@@ -125,34 +120,52 @@ h3 {
   margin: 0 auto 3.14rem;
 }
 
-#bio {
-  min-height: 10rem;
-  height: calc(100vh - 95px);
-  position: relative;
-  top: 1px;
+.container.gradient {
+  min-height: 23rem;
+  padding: 3rem 1rem 0;
   background: linear-gradient(
     rgba(1, 1, 1, 1),
     rgba(1, 1, 1, 1),
-    rgba(2, 2, 2, 0.9),
-    rgba(3, 3, 3, 0.8),
-    rgba(5, 5, 5, 0.2),
-    rgba(8, 8, 8, 0.1),
+    rgba(2, 2, 2, 1),
+    rgba(3, 3, 3, 1),
+    rgba(5, 5, 5, 1),
+    rgba(8, 8, 8, 0.8),
     rgba(13, 13, 13, 0),
     rgba(21, 21, 21, 0)
   );
-  padding: 3rem 1rem 0;
 }
 
 #bio p {
+  font-size: 1.2rem;
   margin-bottom: 3rem;
 }
 
-@media (min-width: 767px) {
-  .hamburger {
-    display: none;
-  }
+#bio p:not(.serif) {
+  font-size: 1.4rem;
+}
 
-  #bio {
+.container.black {
+  background-color: rgba(2, 3, 5, 0.813);
+  box-shadow: 0 0 2rem rgba(2, 3, 5, 0.813);
+}
+
+#license p {
+  font-size: 1.5rem;
+}
+
+h1 a img {
+  width: 25vw;
+  height: auto;
+}
+
+@media (min-width: 767px) {
+  main.container {
     padding: 5.12rem 0 0;
+  }
+  main#bio.container p {
+    font-size: 1.4rem;
+  }
+  main#bio.container p:not(.serif) {
+    font-size: 1.8rem;
   }
 }
