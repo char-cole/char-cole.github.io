@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Allow: /works
+Noindex: /LICENSE/
