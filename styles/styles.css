@@ -30,6 +30,10 @@ main#index .row p {
   margin-right: auto;
 }
 
+.rounded {
+  border-radius: 1rem;
+}
+
 p.mx-auto {
   max-width: 767px;
 }
@@ -140,10 +144,6 @@ h3 {
   margin-bottom: 3rem;
 }
 
-#bio p:not(.serif) {
-  font-size: 1.4rem;
-}
-
 .container.black {
   background-color: rgba(2, 3, 5, 0.813);
   box-shadow: 0 0 2rem rgba(2, 3, 5, 0.813);
@@ -164,8 +164,5 @@ h1 a img {
   }
   main#bio.container p {
     font-size: 1.4rem;
-  }
-  main#bio.container p:not(.serif) {
-    font-size: 1.8rem;
   }
 }
