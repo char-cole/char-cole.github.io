@@ -5,7 +5,7 @@ body {
   color: #fbefbf;
 }
 
-main#index.container {
+main.pt-10.container {
   padding-top: 10rem;
 }
 
@@ -20,7 +20,7 @@ main#index.container {
   top: 1px;
 }
 
-main#index .row p {
+main .row p.my-pi {
   margin-top: 3.14rem;
   margin-bottom: 3.14rem;
 }
