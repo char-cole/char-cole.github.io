@@ -87,7 +87,7 @@ nav h5 {
   margin: 0;
 }
 
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -96,17 +96,29 @@ ul {
   margin: 0.5rem 0 1rem;
 }
 
-ul {
+nav ul {
   font-family: 'Martel';
   font-weight: bold;
 }
 
-ul li {
+nav ul li {
   margin: 0;
 }
 
-ul li a {
+nav ul li a {
   margin-left: -0.5rem;
+}
+
+main.container li {
+  list-style: none;
+}
+
+main.container li h5 {
+  font-size: 2rem;
+}
+
+main.container li p {
+  font-size: 1.5rem;
 }
 
 nav .logo {
@@ -124,9 +136,12 @@ h3 {
   margin: 0 auto 3.14rem;
 }
 
+main.container {
+  padding: 3rem 1rem 0;
+}
+
 .container.gradient {
   min-height: 23rem;
-  padding: 3rem 1rem 0;
   background: linear-gradient(
     rgba(1, 1, 1, 1),
     rgba(1, 1, 1, 1),
