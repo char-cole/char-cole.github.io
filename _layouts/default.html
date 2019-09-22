@@ -18,38 +18,35 @@
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/styles.css" />
   </head>
-  <body>
+  <body style="position: relative; min-height: 100vh;">
     <nav class="container">
-      <div class="row">
-        <h5 class="six columns">
-          <a class="primary" href="/">
-            <img class="logo" src="/images/goat.png" />
-            <span class="hover">charcole</span>.cc
+      <h5>
+        <a class="primary" href="/">
+          <img class="logo" src="/images/goat.png" />
+          <span class="hover">charcole</span>.cc
+        </a>
+      </h5>
+      <ul>
+        <li>
+          <a href="/charles">
+            person
           </a>
-        </h5>
-        <ul class="twelve columns">
-          <li>
-            <a href="/charles">
-              person
-            </a>
-          </li>
-          <li>
-            <a href="/works">
-              works
-            </a>
-          </li>
-          <li>
-            <a href="/links">
-              links
-            </a>
-          </li>
-        </ul>
-      </div>
+        </li>
+        <li>
+          <a href="/works">
+            works
+          </a>
+        </li>
+        <li>
+          <a href="/links">
+            links
+          </a>
+        </li>
+      </ul>
     </nav>
     {{ content }}
-    <footer>
-      <div class="position-fixed">
-        &nbsp;
+    <footer class="container" style="position: relative;">
+      <div style="position: absolute; bottom: 0; left: .5rem;">
         <a href="/LICENSE.html">
           <small>© 2019 Charles Olympia Cole</small>
         </a>
