@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<main class="container px-1 py-1 full-height black">
+  <div class="px-2 py-1">
+    <h4 class="primary">data.world | UI development in React</h4>
+    <h5>
+      Link to
+      <a href="https://data.world" rel="noopener noreferrer" target="_blank"
+        >data.world</a
+      >
+    </h5>
+    <p>
+      data.world is a React app written in TypeScript. Charles has been working
+      a contract position at data.world since May, 2019, developing UI features.
+    </p>
+    <p>
+      A key feature developed by Charles is something called derivative
+      datasets. On data.world, data files are stored in datasets. Queries can be
+      written in SQL or SPARQL against those files, and the results of the query
+      can be saved as new files to the working dataset or to another dataset.
+    </p>
+    <p>
+      Derivative datasets were a commonly requested feature that would allow the
+      user to create a new dataset to which the query results would be saved
+      without leaving their workflow. Charles implemented this capability
+      through a refactoring of the "Save Results Tables" modal into a branching
+      component that determines the state of the user's current workspace and
+      the user's access levels to make appropriate, sequenced calls to the API.
+    </p>
+    <p>
+      By entering the derivative dataset creation flow, the modal stores
+      information about the file that will be created, then renders the dataset
+      creation form and stores all of the inputs given to it. It then creates
+      the new dataset and determines whether or not it should create a
+      connection between the new dataset and the currently active one. Along the
+      way the modal indicates through UI elements to the user what that process
+      will be.
+    </p>
+    <p>
+      I would like to show you more, but this page is still under construction!
+      Very soon, this page will be an illustrated development journal of
+      Charles's work at data.world, explaining his process and insights.
+    </p>
+  </div>
+</main>
