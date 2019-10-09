@@ -1,0 +1,156 @@
+$pink: #e35666;
+$pink-2: #cc3666;
+$cream: #fbefbf;
+$cream-2: #dec25f;
+$dark: #202020;
+
+@keyframes simulate_a_problem {
+  0% {
+    border-bottom: 1px solid $pink;
+  }
+  10% {
+    border-bottom: 1px solid $pink-2;
+  }
+  40% {
+    border-bottom: 1px solid $pink;
+  }
+  45% {
+    border-bottom: 1px dotted $pink;
+  }
+  50% {
+    border-bottom: 1px solid $pink;
+  }
+  70% {
+    border-bottom: 1px solid $pink-2;
+  }
+  73% {
+    border-bottom: 1px dotted $pink;
+  }
+  75% {
+    border-bottom: 1px solid $pink-2;
+  }
+  95% {
+    border-bottom: 1px solid $pink;
+  }
+  100% {
+    border-bottom: 1px solid transparent;
+  }
+}
+
+@keyframes cause_a_problem {
+  from {
+    font-size: 1em;
+  }
+  to {
+    font-size: 5em;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+html * {
+  font-size: 0.75rem;
+}
+
+body {
+  background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  color: $cream;
+  font-size: 0.75rem;
+  position: relative;
+  height: 100vh;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: $dark;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+a {
+  color: $cream;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: $cream-2;
+  animation: cause_a_problem 60s;
+  animation-delay: 0.25s;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 2em;
+}
+
+nav {
+  border-bottom: 1px solid $cream-2;
+  box-shadow: 0 1px 0 $pink;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  li {
+    margin: 0 1rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    animation: simulate_a_problem 3s infinite;
+  }
+  h5 {
+    margin: 0;
+  }
+  h5 a,
+  h5 a:hover {
+    color: $pink;
+    animation: none;
+  }
+  h5 a:hover span {
+    color: $pink-2;
+    text-decoration: underline;
+  }
+}
+
+footer {
+  padding-top: 2rem;
+
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    animation: none;
+    text-decoration: none;
+    color: $cream;
+  }
+}
+
+.pink {
+  color: $pink;
+}
+
+.logo {
+  height: 1.33rem;
+  width: auto;
+}
+
+.wip {
+  border: 1px solid $pink;
+  border-radius: 0.1rem;
+  padding: 0.175rem;
+
+  p {
+    border: 1px solid $pink;
+    border-radius: 0.1rem;
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
