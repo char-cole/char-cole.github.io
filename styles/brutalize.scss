@@ -11,6 +11,12 @@ $dark: #202020;
   10% {
     border-bottom: 1px solid $pink-2;
   }
+  15% {
+    border-bottom: 1px solid $pink;
+  }
+  25% {
+    border-bottom: 1px solid $pink-2;
+  }
   40% {
     border-bottom: 1px solid $pink;
   }
@@ -92,10 +98,13 @@ h1 {
 nav {
   border-bottom: 1px solid $cream-2;
   box-shadow: 0 1px 0 $pink;
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 1rem;
   ul {
     display: flex;
-    justify-content: center;
     list-style: none;
+    margin: 0;
   }
   li {
     margin: 0 1rem;
@@ -122,6 +131,8 @@ nav {
 
 footer {
   padding-top: 2rem;
+  position: absolute;
+  bottom: 1rem;
 
   a {
     text-decoration: none;
@@ -152,5 +163,12 @@ footer {
     border-radius: 0.1rem;
     margin: 0;
     padding: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    margin: 0 -1rem;
+    padding: 0 1rem 1rem;
   }
 }
