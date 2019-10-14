@@ -2,7 +2,7 @@ $pink: #e35666;
 $pink-2: #cc3666;
 $cream: #fbefbf;
 $cream-2: #dec25f;
-$dark: #202020;
+$dark: #1b1b1b;
 
 @keyframes simulate_a_problem {
   0% {
@@ -62,37 +62,46 @@ html * {
 
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
-  background-repeat: no-repeat;
   background-position: top;
+  background-repeat: no-repeat;
   color: $cream;
   font-size: 0.75rem;
+  min-height: 100vh;
   position: relative;
-  height: 100vh;
 }
 
 main {
-  max-width: 900px;
-  margin: 0 auto;
   background-color: $dark;
-  height: 100%;
-  padding: 1rem;
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
   box-sizing: border-box;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  min-height: 100vh;
+  padding: 1rem;
 }
 
 a {
+  text-decoration: none;
   color: $cream;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid $cream;
 }
 
 a:hover {
   color: $cream-2;
   animation: cause_a_problem 60s;
-  animation-delay: 0.25s;
+  animation-delay: 0.33s;
+  border-color: $cream-2;
 }
 
 h1 {
   margin: 2rem 0;
   font-size: 2em;
+}
+
+fieldset {
+  margin-bottom: 2rem;
 }
 
 nav {
@@ -111,6 +120,7 @@ nav {
   }
   a {
     text-decoration: none;
+    border: none;
   }
   a:hover {
     animation: simulate_a_problem 3s infinite;
@@ -136,6 +146,7 @@ footer {
 
   a {
     text-decoration: none;
+    border: none;
   }
   a:hover {
     animation: none;

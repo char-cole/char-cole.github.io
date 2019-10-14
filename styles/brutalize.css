@@ -36,33 +36,41 @@ html * {
 
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
-  background-repeat: no-repeat;
   background-position: top;
+  background-repeat: no-repeat;
   color: #fbefbf;
   font-size: 0.75rem;
-  position: relative;
-  height: 100vh; }
+  min-height: 100vh;
+  position: relative; }
 
 main {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #202020;
+  background-color: #1b1b1b;
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+  box-sizing: border-box;
   height: 100%;
-  padding: 1rem;
-  box-sizing: border-box; }
+  margin: 0 auto;
+  max-width: 900px;
+  min-height: 100vh;
+  padding: 1rem; }
 
 a {
+  text-decoration: none;
   color: #fbefbf;
-  border-bottom: 1px solid transparent; }
+  border-bottom: 1px solid #fbefbf; }
 
 a:hover {
   color: #dec25f;
   animation: cause_a_problem 60s;
-  animation-delay: 0.25s; }
+  animation-delay: 0.33s;
+  border-color: #dec25f; }
 
 h1 {
   margin: 2rem 0;
   font-size: 2em; }
+
+fieldset {
+  margin-bottom: 2rem; }
 
 nav {
   border-bottom: 1px solid #dec25f;
@@ -77,7 +85,8 @@ nav {
   nav li {
     margin: 0 1rem; }
   nav a {
-    text-decoration: none; }
+    text-decoration: none;
+    border: none; }
   nav a:hover {
     animation: simulate_a_problem 3s infinite; }
   nav h5 {
@@ -95,7 +104,8 @@ footer {
   position: absolute;
   bottom: 1rem; }
   footer a {
-    text-decoration: none; }
+    text-decoration: none;
+    border: none; }
   footer a:hover {
     animation: none;
     text-decoration: none;
