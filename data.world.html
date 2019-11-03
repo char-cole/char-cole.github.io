@@ -29,19 +29,19 @@ title: data.world
     </fieldset>
     <fieldset>
       <legend>Notifications Settings Tab</legend>
+      <p>
+        The Notifications Settings Page was really fun because the stated problem I was trying to solve was that the button to unsubscribe from notifications on a specific dataset could be confusing to use. But this was a bit of a neglected part of the app, and it wasn't meant for heavy utilization. I identified a few key ways that the page could have an improved user experience and was given the freedom to overhaul the page.
+      </p>
+      <p>
+        In regards to the original button problem, the button rendered a different state for "subscribed" or "not subscribed", and it changed when clicked - but not immediately. This led to users double-clicking because they didn't know it was processing a request to unsubscribe. I knew that whatever solution I found had to be optimistic, meaning it would change as soon as the user interacted with it on the assumption the network request would succeed (but it also reverted on an error, so it never showed an inaccurate state).
+      </p>
+      <p>
+        But secondly I realized that a button wasn't the best element to use here. What was really being represented was a binary state - "on" or "off". While a button <i>could</i> do this by changing its text and color, buttons usually represent a single, often irreverisble action. What we really needed here was a toggle, like a lightswitch.
+      </p>
+      <p>
+        I also wanted to update the interface, which only displayed the name of the dataset and the name of its owner. We had other dataset lists in the app, so I thought it would be the best user experience to imitate those, even though the functionaltiy would be slight different. So I pulled in some of those same components and libraries to render a nice-looking table that showed the dataset name, owner name, and last updated date - but also had links to the dataset and owner, and brought in tooltips for richer information. Previously, this view had been a little claustrophobic, showing only five datasets at a time (from a time where there weren't meant to be a large number of datasets) and surfacing little information. Now it felt informative and connected, as a feature in a data catalog should.
+      </p>
     </fieldset>
-    <p>
-      The Notifications Settings Page was really fun because the stated problem I was trying to solve was that the button to unsubscribe from notifications on a specific dataset could be confusing to use. But this was a bit of a neglected part of the app, and it wasn't meant for heavy utilization. I identified a few key ways that the page could have an improved user experience and was given the freedom to overhaul the page.
-    </p>
-    <p>
-      In regards to the original button problem, the button rendered a different state for "subscribed" or "not subscribed", and it changed when clicked - but not immediately. This led to users double-clicking because they didn't know it was processing a request to unsubscribe. I knew that whatever solution I found had to be optimistic, meaning it would change as soon as the user interacted with it on the assumption the network request would succeed (but it also reverted on an error, so it never showed an inaccurate state).
-    </p>
-    <p>
-      But secondly I realized that a button wasn't the best element to use here. What was really being represented was a binary state - "on" or "off". While a button <i>could</i> do this by changing its text and color, buttons usually represent a single, often irreverisble action. What we really needed here was a toggle, like a lightswitch.
-    </p>
-    <p>
-      I also wanted to update the interface, which only displayed the name of the dataset and the name of its owner. We had other dataset lists in the app, so I thought it would be the best user experience to imitate those, even though the functionaltiy would be slight different. So I pulled in some of those same components and libraries to render a nice-looking table that showed the dataset name, owner name, and last updated date - but also had links to the dataset and owner, and brought in tooltips for richer information. Previously, this view had been a little claustrophobic, showing only five datasets at a time (from a time where there weren't meant to be a large number of datasets) and surfacing little information. Now it felt informative and connected, as a feature in a data catalog should.
-    </p>
     <fieldset>
       <legend>Derivative Dataset Workflow</legend>
       <p>
@@ -78,8 +78,5 @@ title: data.world
         There were a few other issues exposed here, not all noteworthy. One I noticed surprisingly late, several weeks after the release of the feature in fact. Because there were so many different uses and contexts for the SRTM within workspaces, I had not realized that the SRTM didn't actually know what <i>workspace</i> it was in, only which resource owned the query it was opened from. This meant that in a project workspace, where the user would expect their new dataset to be linked to the project, the SRTM wouldn't even attempt to do so if the query they ran belonged to a connected dataset instead of belonging to the project itself. Luckily it was an easy fix to parse the react-router path for the name of the top-level resource and load it from the Redux state, and to do so only when the user had signaled they wanted to enter the derivative dataset flow.
       </p>
     </fieldset>
-    <div class="wip">
-      <p>Pictures coming soon...</p>
-    </div>
   </div>
 </article>
