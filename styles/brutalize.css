@@ -167,6 +167,10 @@ footer a:hover {
   padding: 0.5rem;
 }
 
+small {
+  font-size: 0.75em;
+}
+
 @media (max-width: 767px) {
   nav {
     margin: 0 -1rem;
