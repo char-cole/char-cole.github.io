@@ -5,181 +5,192 @@ $cream-2: #dec25f;
 $dark: #1b1b1b;
 
 @keyframes simulate_a_problem {
-  0% {
-    border-bottom: 1px solid $pink;
-  }
-  10% {
-    border-bottom: 1px solid $pink-2;
-  }
-  15% {
-    border-bottom: 1px solid $pink;
-  }
-  25% {
-    border-bottom: 1px solid $pink-2;
-  }
-  40% {
-    border-bottom: 1px solid $pink;
-  }
-  45% {
-    border-bottom: 1px dotted $pink;
-  }
-  50% {
-    border-bottom: 1px solid $pink;
-  }
-  70% {
-    border-bottom: 1px solid $pink-2;
-  }
-  73% {
-    border-bottom: 1px dotted $pink;
-  }
-  75% {
-    border-bottom: 1px solid $pink-2;
-  }
-  95% {
-    border-bottom: 1px solid $pink;
-  }
-  100% {
-    border-bottom: 1px solid transparent;
-  }
+    0% {
+        border-bottom: 1px solid $pink;
+    }
+    10% {
+        border-bottom: 1px solid $pink-2;
+    }
+    15% {
+        border-bottom: 1px solid $pink;
+    }
+    25% {
+        border-bottom: 1px solid $pink-2;
+    }
+    40% {
+        border-bottom: 1px solid $pink;
+    }
+    45% {
+        border-bottom: 1px dotted $pink;
+    }
+    50% {
+        border-bottom: 1px solid $pink;
+    }
+    70% {
+        border-bottom: 1px solid $pink-2;
+    }
+    73% {
+        border-bottom: 1px dotted $pink;
+    }
+    75% {
+        border-bottom: 1px solid $pink-2;
+    }
+    95% {
+        border-bottom: 1px solid $pink;
+    }
+    100% {
+        border-bottom: 1px solid transparent;
+    }
 }
 
 @keyframes cause_a_problem {
-  from {
-    font-size: 1em;
-  }
-  to {
-    font-size: 5em;
-  }
+    from {
+        font-size: 1em;
+    }
+    to {
+        font-size: 5em;
+    }
 }
 
 html {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 html * {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 
 body {
-  background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
-  background-position: top;
-  background-attachment: fixed;
-  color: $cream;
-  font-size: 0.75rem;
-  min-height: 100vh;
-  position: relative;
+    background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    color: $cream;
+    font-size: 0.75rem;
+    min-height: 100vh;
+    position: relative;
 }
 
 main {
-  background-color: $dark;
-  border-left: 1px solid #212121;
-  border-right: 1px solid #212121;
-  box-sizing: border-box;
-  height: 100%;
-  margin: 0 auto;
-  max-width: 900px;
-  min-height: 100vh;
-  padding: 1rem;
+    background-color: $dark;
+    border-left: 1px solid #212121;
+    border-right: 1px solid #212121;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    min-height: 100vh;
+    padding: 1rem;
 }
 
 a {
-  text-decoration: none;
-  color: $cream;
-  border-bottom: 1px solid $cream;
+    text-decoration: none;
+    color: $cream;
+    border-bottom: 1px solid $cream;
 }
 
 a:hover {
-  color: $cream-2;
-  animation: cause_a_problem 60s;
-  animation-delay: 0.33s;
-  border-color: $cream-2;
+    color: $cream-2;
+    animation: cause_a_problem 60s;
+    animation-delay: 0.33s;
+    border-color: $cream-2;
 }
 
 h1 {
-  margin: 2rem 0;
-  font-size: 2em;
+    margin: 2rem 0;
+    font-size: 2em;
 }
 
 fieldset {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 nav {
-  border-bottom: 1px solid $cream-2;
-  box-shadow: 0 1px 0 $pink;
-  display: flex;
-  align-items: baseline;
-  padding-bottom: 1rem;
-  ul {
+    border-bottom: 1px solid $cream-2;
+    box-shadow: 0 1px 0 $pink;
     display: flex;
-    list-style: none;
-    margin: 0;
-  }
-  li {
-    margin: 0 1rem;
-  }
-  a {
-    text-decoration: none;
-    border: none;
-  }
-  a:hover {
-    animation: simulate_a_problem 3s infinite;
-  }
-  h5 {
-    margin: 0;
-  }
-  h5 a,
-  h5 a:hover {
-    color: $pink;
-    animation: none;
-  }
-  h5 a:hover span {
-    color: $pink-2;
-    text-decoration: underline;
-  }
+    align-items: baseline;
+    padding-bottom: 1rem;
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+    li {
+        margin: 0 1rem;
+    }
+    a {
+        text-decoration: none;
+        border: none;
+    }
+    a:hover {
+        animation: simulate_a_problem 3s infinite;
+    }
+    h5 {
+        margin: 0;
+    }
+    h5 a,
+    h5 a:hover {
+        color: $pink;
+        animation: none;
+    }
+    h5 a:hover span {
+        color: $pink-2;
+        text-decoration: underline;
+    }
 }
 
 footer {
-  padding-top: 2rem;
-  position: absolute;
-  bottom: 1rem;
+    padding-top: 2rem;
+    position: absolute;
+    bottom: 1rem;
 
-  a {
-    text-decoration: none;
-    border: none;
-  }
-  a:hover {
-    animation: none;
-    text-decoration: none;
-    color: $cream;
-  }
+    a {
+        text-decoration: none;
+        border: none;
+    }
+    a:hover {
+        animation: none;
+        text-decoration: none;
+        color: $cream;
+    }
 }
 
 .pink {
-  color: $pink;
+    color: $pink;
 }
 
 .logo {
-  height: 1.33rem;
-  width: auto;
+    height: 1.33rem;
+    width: auto;
+}
+
+.article-title {
+    font-size: 1rem;
+    margin: 2rem 0 1rem;
 }
 
 .wip {
-  border: 1px solid $pink;
-  border-radius: 0.1rem;
-  padding: 0.175rem;
-
-  p {
     border: 1px solid $pink;
     border-radius: 0.1rem;
-    margin: 0;
-    padding: 0.5rem;
-  }
+    padding: 0.175rem;
+
+    p {
+        border: 1px solid $pink;
+        border-radius: 0.1rem;
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
+
+small {
+    font-size: 0.85em;
+    border: 1px solid $pink;
+    padding: 1rem;
 }
 
 @media (max-width: 767px) {
-  nav {
-    margin: 0 -1rem;
-    padding: 0 1rem 1rem;
-  }
+    nav {
+        margin: 0 -1rem;
+        padding: 0 1rem 1rem;
+    }
 }
