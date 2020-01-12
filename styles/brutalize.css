@@ -1,38 +1,56 @@
 @keyframes simulate_a_problem {
   0% {
-    border-bottom: 1px solid #e35666; }
+    border-bottom: 1px solid #e35666;
+  }
   10% {
-    border-bottom: 1px solid #cc3666; }
+    border-bottom: 1px solid #cc3666;
+  }
   15% {
-    border-bottom: 1px solid #e35666; }
+    border-bottom: 1px solid #e35666;
+  }
   25% {
-    border-bottom: 1px solid #cc3666; }
+    border-bottom: 1px solid #cc3666;
+  }
   40% {
-    border-bottom: 1px solid #e35666; }
+    border-bottom: 1px solid #e35666;
+  }
   45% {
-    border-bottom: 1px dotted #e35666; }
+    border-bottom: 1px dotted #e35666;
+  }
   50% {
-    border-bottom: 1px solid #e35666; }
+    border-bottom: 1px solid #e35666;
+  }
   70% {
-    border-bottom: 1px solid #cc3666; }
+    border-bottom: 1px solid #cc3666;
+  }
   73% {
-    border-bottom: 1px dotted #e35666; }
+    border-bottom: 1px dotted #e35666;
+  }
   75% {
-    border-bottom: 1px solid #cc3666; }
+    border-bottom: 1px solid #cc3666;
+  }
   95% {
-    border-bottom: 1px solid #e35666; }
+    border-bottom: 1px solid #e35666;
+  }
   100% {
-    border-bottom: 1px solid transparent; } }
+    border-bottom: 1px solid transparent;
+  }
+}
 @keyframes cause_a_problem {
   from {
-    font-size: 1em; }
+    font-size: 1em;
+  }
   to {
-    font-size: 5em; } }
+    font-size: 5em;
+  }
+}
 html {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 html * {
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+}
 
 body {
   background-image: url(../images/adrien-olichon-VzRKG0piEp8-unsplash.jpg);
@@ -41,7 +59,8 @@ body {
   color: #fbefbf;
   font-size: 0.75rem;
   min-height: 100vh;
-  position: relative; }
+  position: relative;
+}
 
 main {
   background-color: #1b1b1b;
@@ -52,85 +71,107 @@ main {
   margin: 0 auto;
   max-width: 900px;
   min-height: 100vh;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 a {
   text-decoration: none;
   color: #fbefbf;
-  border-bottom: 1px solid #fbefbf; }
+  border-bottom: 1px solid #fbefbf;
+}
 
 a:hover {
   color: #dec25f;
   animation: cause_a_problem 60s;
   animation-delay: 0.33s;
-  border-color: #dec25f; }
+  border-color: #dec25f;
+}
 
 h1 {
   margin: 2rem 0;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 fieldset {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 nav {
   border-bottom: 1px solid #dec25f;
   box-shadow: 0 1px 0 #e35666;
   display: flex;
   align-items: baseline;
-  padding-bottom: 1rem; }
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0; }
-  nav li {
-    margin: 0 1rem; }
-  nav a {
-    text-decoration: none;
-    border: none; }
-  nav a:hover {
-    animation: simulate_a_problem 3s infinite; }
-  nav h5 {
-    margin: 0; }
-  nav h5 a,
-  nav h5 a:hover {
-    color: #e35666;
-    animation: none; }
-  nav h5 a:hover span {
-    color: #cc3666;
-    text-decoration: underline; }
+  padding-bottom: 1rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav li {
+  margin: 0 1rem;
+}
+nav a {
+  text-decoration: none;
+  border: none;
+}
+nav a:hover {
+  animation: simulate_a_problem 3s infinite;
+}
+nav h5 {
+  margin: 0;
+}
+nav h5 a,
+nav h5 a:hover {
+  color: #e35666;
+  animation: none;
+}
+nav h5 a:hover span {
+  color: #cc3666;
+  text-decoration: underline;
+}
 
 footer {
   padding-top: 2rem;
   position: absolute;
-  bottom: 1rem; }
-  footer a {
-    text-decoration: none;
-    border: none; }
-  footer a:hover {
-    animation: none;
-    text-decoration: none;
-    color: #fbefbf; }
+  bottom: 1rem;
+}
+footer a {
+  text-decoration: none;
+  border: none;
+}
+footer a:hover {
+  animation: none;
+  text-decoration: none;
+  color: #fbefbf;
+}
 
 .pink {
-  color: #e35666; }
+  color: #e35666;
+}
 
 .logo {
   height: 1.33rem;
-  width: auto; }
+  width: auto;
+}
 
 .wip {
   border: 1px solid #e35666;
   border-radius: 0.1rem;
-  padding: 0.175rem; }
-  .wip p {
-    border: 1px solid #e35666;
-    border-radius: 0.1rem;
-    margin: 0;
-    padding: 0.5rem; }
+  padding: 0.175rem;
+}
+.wip p {
+  border: 1px solid #e35666;
+  border-radius: 0.1rem;
+  margin: 0;
+  padding: 0.5rem;
+}
 
 @media (max-width: 767px) {
   nav {
     margin: 0 -1rem;
-    padding: 0 1rem 1rem; } }
+    padding: 0 1rem 1rem;
+  }
+}
 
 /*# sourceMappingURL=brutalize.css.map */
