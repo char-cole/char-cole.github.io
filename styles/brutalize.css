@@ -161,6 +161,7 @@ table {
 }
 table tr {
   border: 1px solid #dec25f;
+  padding: 0.25rem;
 }
 
 .pink {
