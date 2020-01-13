@@ -140,9 +140,10 @@ nav {
 }
 
 footer {
-    padding-top: 2rem;
+    padding-top: 1rem;
     position: absolute;
     bottom: 1rem;
+    border-top: 1px solid $pink-2;
 
     a {
         text-decoration: none;
@@ -153,6 +154,15 @@ footer {
         text-decoration: none;
         color: $cream;
     }
+}
+
+article {
+    margin-bottom: 3rem;
+}
+
+small {
+    font-size: 0.85em;
+    padding: 1rem;
 }
 
 .pink {
@@ -180,12 +190,6 @@ footer {
         margin: 0;
         padding: 0.5rem;
     }
-}
-
-small {
-    font-size: 0.85em;
-    border: 1px solid $pink;
-    padding: 1rem;
 }
 
 @media (max-width: 767px) {

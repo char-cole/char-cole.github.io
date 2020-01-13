@@ -132,9 +132,10 @@ nav h5 a:hover span {
 }
 
 footer {
-  padding-top: 2rem;
+  padding-top: 1rem;
   position: absolute;
   bottom: 1rem;
+  border-top: 1px solid #cc3666;
 }
 footer a {
   text-decoration: none;
@@ -144,6 +145,15 @@ footer a:hover {
   animation: none;
   text-decoration: none;
   color: #fbefbf;
+}
+
+article {
+  margin-bottom: 3rem;
+}
+
+small {
+  font-size: 0.85em;
+  padding: 1rem;
 }
 
 .pink {
@@ -170,12 +180,6 @@ footer a:hover {
   border-radius: 0.1rem;
   margin: 0;
   padding: 0.5rem;
-}
-
-small {
-  font-size: 0.85em;
-  border: 1px solid #e35666;
-  padding: 1rem;
 }
 
 @media (max-width: 767px) {
