@@ -165,6 +165,13 @@ small {
     padding: 1rem;
 }
 
+table {
+    width: 100%;
+    tr {
+        border: 1px solid $cream-2;
+    }
+}
+
 .pink {
     color: $pink;
 }

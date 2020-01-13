@@ -156,6 +156,13 @@ small {
   padding: 1rem;
 }
 
+table {
+  width: 100%;
+}
+table tr {
+  border: 1px solid #dec25f;
+}
+
 .pink {
   color: #e35666;
 }
