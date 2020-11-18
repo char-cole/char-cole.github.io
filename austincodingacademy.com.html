@@ -4,125 +4,125 @@ title: austincodingacademy.com
 ---
 
 <article>
-    <h2 class="pink article-title">
-        austincodingacademy.com - static site with AMP JavaScript
-    </h2>
-    <h5>
-        Link to
-        <a
-            href="https://austincodingacademy.com"
-            rel="noopener noreferrer"
-            target="_blank"
-            >Austin Coding Academy</a
-        >
-    </h5>
+  <h2 class="pink article-title">
+    austincodingacademy.com - static site with AMP JavaScript
+  </h2>
+  <h5>
+    Link to
+    <a
+      href="https://austincodingacademy.com"
+      rel="noopener noreferrer"
+      target="_blank"
+      >Austin Coding Academy</a
+    >
+  </h5>
+  <p>
+    austincodingacademy.com is the marketing site and student portal for Austin
+    Coding Academy, a local coding bootcamp. It is a static site written with
+    Jekyll, with content populated by forestry.io, and utilizing Google's AMP
+    JavaScript library.
+  </p>
+  <p>
+    Charles built the first version of the currently live site in December 2018,
+    and continued to develop and maintain the site as the school grew and
+    changed until May, 2019.
+  </p>
+  <p>
+    Developing this site was an exciting challenge for Charles because he was
+    completely new to Google's webmaster tools and AMP (formerly Accelerated
+    Mobile Pages, a streamlined and SEO-focused JavaScript library). Working
+    within the framework of Google's guidelines for SEO, as well as overall
+    minimizing the size and scripting of the site, meant that the most obvious
+    approaches to goals were not always the most appropriate.
+  </p>
+  <fieldset>
+    <legend>SEO and AMP</legend>
     <p>
-        austincodingacademy.com is the marketing site and student portal for
-        Austin Coding Academy, a local coding bootcamp. It is a static site
-        written with Jekyll, with content populated by forestry.io, and
-        utilizing Google's AMP JavaScript library.
+      It was, and likely remains, very important for Austin Coding Academy to
+      improve SEO. As a small, local school with relatively little advertsing
+      budget, being discovered in searches is an efficient way to bring in new
+      students.
     </p>
     <p>
-        Charles built the first version of the currently live site in December
-        2018, and continued to develop and maintain the site as the school grew
-        and changed until May, 2019.
+      One element of SEO is copy, and I had little influence over that. Our
+      marketing specialist was far better equipped to make those decisions when
+      they mattered for SEO. Another factor is HTML structure. In general, it's
+      not difficult to do okay here - don't try to be sneaky, use logical
+      hierarchies, and understand your semantic elements. There were probably a
+      few unintuitive techniques a specialist would have known about, but we
+      consistently did well in our search placement, so we weren't concerned
+      with squeezing out miniscule gains.
     </p>
     <p>
-        Developing this site was an exciting challenge for Charles because he
-        was completely new to Google's webmaster tools and AMP (formerly
-        Accelerated Mobile Pages, a streamlined and SEO-focused JavaScript
-        library). Working within the framework of Google's guidelines for SEO,
-        as well as overall minimizing the size and scripting of the site, meant
-        that the most obvious approaches to goals were not always the most
-        appropriate.
+      The final and most concrete factor in SEO was Google's webmaster tools. I
+      checked these regularly. Every time Google crawled our site it would have
+      new recommendations or concerns. One of the guidelines of Google's SEO
+      policy is to favor sites with predictable interactions - specifically,
+      this means using Google's AMP JavaScript library and not including any
+      custom scripts. So, we decided to invest fully in AMP.
     </p>
-    <fieldset>
-        <legend>SEO and AMP</legend>
-        <p>
-            It was, and likely remains, very important for Austin Coding Academy
-            to improve SEO. As a small, local school with relatively little
-            advertsing budget, being discovered in searches is an efficient way
-            to bring in new students.
-        </p>
-        <p>
-            One element of SEO is copy, and I had little influence over that.
-            Our marketing specialist was far better equipped to make those
-            decisions when they mattered for SEO. Another factor is HTML
-            structure. In general, it's not difficult to do okay here - don't
-            try to be sneaky, use logical text hierarchies, and understand your
-            semantic elements. There were probably a few unintuitive techniques
-            a specialist would have known about, but we consistently did well in
-            our search placement, so it was not a concern to squeeze out a
-            little more.
-        </p>
-        <p>
-            The final and most concrete factor in SEO was Google's webmaster
-            tools. I had full access to these and checekd them regularly. Every
-            time Google crawled our site it would have new recommendations or
-            concerns. One of the guidelines of Google's SEO policy is to favor
-            sites with predictable interactions - specifically, this means using
-            Google's AMP JavaScript library and not including any custom
-            scripts.
-        </p>
-        <p>
-            It was actually very fun to be constrained to AMP's library of
-            specific components. It meant giving up a lot of capabilities, but
-            the site was initially built completely free of JS in preparation
-            for the addition of AMP, so there wasn't anything I had to actually
-            remove. While I didn't want to build anything too complex, as I
-            wanted to site to work well even with JS disabled, even relatively
-            simple interactions could be interesting challenges.
-        </p>
-        <p>
-            AMP has a component called the
-            <code>amp-position-observer</code> that can track the user's scroll
-            position on the page. I wanted to use this for two things: a sticky
-            global nav bar that would fade in and out, and a floating nav menu
-            on our longer pages. Both of these were things that other sites were
-            doing with various levels of success, but since we were using AMP
-            instead of custom JS it wasn't a guarantee we could do better.
-        </p>
-        <p>
-            The sticky global nav seemed easy at first. There are a lot of
-            examples of such things around the internet, and in concept it's not
-            very difficult. But without full control of the scripts, it was a
-            real challenge to trigger the animation with precision. We wanted to
-            nav bar to be completely transparent at the top of the page, fading
-            into the hero image, but the background needed to being filling in
-            as soon as the user began to scroll down, so that the nav was
-            readable as it passed over the text in the hero image.
-        </p>
-        <p>
-            As there were several interconnected pieces to the
-            <code>amp-animation</code> component that was reading the
-            <code>amp-position-observer</code>, and documentation around both of
-            their parts was not the most thorough, I never found the right
-            calculations for this balance point across all screen sizes. Given
-            more time I would have liked to keep hunting for examples or
-            tutorials on the specific problems I was encountering, but
-            eventually I erred on the side of readability and had to move on to
-            other tickts.
-        </p>
-        <p>
-            The latter item, the floating nav menu, was less complex in
-            comparison. AMP doesn't allow a developer to conditionally add
-            classes for CSS, which would often be the easiest way to move or
-            hide an element, but as before I was able to manipulate the
-            element's opacity based on scroll position. This was much easier,
-            since there was a larger portion of the page on which the element
-            could be completely transparent and hidden (I didn't want the menu
-            to appear at all until the user had scrolled most or all of the hero
-            image off the page). I got this working quickly, tweaked it so it
-            was shiny and smooth, and then found we were changing the structure
-            of our courses and the entire page was about to be redone.
-        </p>
-        <p>
-            The new course pages were shorter and much easier to navigate by
-            scrolling, so there was no need for the floating nav menu. I kept
-            all the code intact so that if we developed other long pages it
-            could be used there, but as far as I know it never did get deployed
-            - which is really a good thing, because it means we were displaying
-            concise, easily navigable information.
-        </p>
-    </fieldset>
+    <p>
+      It was actually quite fun to be constrained to AMP's library of specific
+      components. It meant giving up a lot of capabilities, but the site was
+      initially built completely free of JS in preparation for the addition of
+      AMP, so there wasn't anything I had to actually remove. I felt it was
+      important for the site to remain fully functional even if the user
+      disabled JS, so on top of the basic site we decided not to add too many
+      fancy interactions. But when using a third-party toolkit, even relatively
+      simple interactions could be interesting challenges.
+    </p>
+    <p>
+      AMP has a component called the
+      <code>amp-position-observer</code> that can track the user's scroll
+      position on the page. I wanted to use this for two things: a sticky global
+      nav bar that would fade in and out, and a floating nav menu on our longer
+      pages. Both of these were things that other sites were doing with various
+      levels of success, but since we were using AMP instead of custom JS it
+      wasn't a guarantee we could do better.
+    </p>
+    <p>
+      The sticky global nav seemed easy at first. There are a lot of examples of
+      such things around the internet, and in concept it's not very difficult.
+      But without full control of the scripts, it was a real challenge to
+      trigger the animation with precision. We wanted to nav bar to be
+      completely transparent at the top of the page, fading into the hero image.
+      But since the nav bar might be ovarlayed on the hero image's text after
+      scrolling even a short way, we needed to ensure that the nav's background
+      opacity would be raised very quickly - basically, as soon as the user
+      began to scroll.
+    </p>
+    <p>
+      As there were several interconnected pieces to the
+      <code>amp-animation</code> component that was reading the
+      <code>amp-position-observer</code>, and documentation around both of their
+      parts was not the most thorough, I never found the perfect calculations
+      for this balance point across all screen sizes. Given more time I would
+      have liked to keep hunting for new solutions on the specific problems I
+      was encountering, but eventually I had to mvoe on to other tickets, so I
+      compromised and decided to err on the side of readability at all sizes
+      rather than sacrifice readability on some screens just to get the perfect
+      scroll behavior on one breakpoint.
+    </p>
+    <p>
+      The latter item, the floating nav menu, was less complex in comparison.
+      AMP doesn't allow a developer to conditionally add classes for CSS, which
+      would often be the easiest way to move or hide an element, but as before I
+      was able to manipulate the element's opacity based on scroll position.
+      This was much easier, since there was a larger portion of the page on
+      which the element could be completely transparent and hidden (I didn't
+      want the menu to appear at all until the user had scrolled most or all of
+      the hero image off the page). I got this working quickly, tweaked it so it
+      was shiny and smooth, and then found we were changing the structure of our
+      courses and the entire page was about to be redone!
+    </p>
+    <p>
+      The new course pages were shorter and much easier to navigate by
+      scrolling, so there was no need for the floating nav menu. I kept all the
+      code intact so that if we developed long pages in the future it could be
+      used there, but as far as I know it never did get deployed - which is
+      really a good thing, because it means we were displaying concise, easily
+      navigable information. And in the end, I still learned a lot from the
+      experience, so nothing was really lost.
+    </p>
+  </fieldset>
 </article>

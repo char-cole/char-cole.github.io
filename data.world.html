@@ -4,199 +4,200 @@ title: data.world
 ---
 
 <article>
-    <h2 class="pink article-title">
-        data.world - UI development in React
-    </h2>
-    <h5>
-        Link to
-        <a href="https://data.world" rel="noopener noreferrer" target="_blank"
-            >data.world</a
-        >
-    </h5>
+  <h2 class="pink article-title">
+    data.world - UI development in React
+  </h2>
+  <h5>
+    Link to
+    <a href="https://data.world" rel="noopener noreferrer" target="_blank"
+      >data.world</a
+    >
+  </h5>
+  <p>
+    From May 2019 through October 2019, Charles was a contract developer at
+    data.world, where he worked on the UI of the core React app as well as
+    integration tests.
+  </p>
+  <p>
+    Three of the features Charles found most intersting to work on were
+    Derivative Dataset Flow, the Onboarding Tour Modal for new users, and the
+    Notifications Settings Tab.
+  </p>
+  <p>
+    These features are discussed below in order of increasing detail.
+  </p>
+  <fieldset>
+    <legend>Onboarding Tour Modal</legend>
     <p>
-        From May 2019 through October 2019, Charles was a contract developer at
-        data.world, where he worked on the UI of the core React app as well as
-        integration tests.
+      The Onboarding Tour Modal involved some mild engineering changes to
+      accommodate our new concept of the VPC (Virtual Private Cloud)
+      environment, which would allow certain enterprise customers to customize
+      the onboarding tour among other things. But for me, what made this project
+      fun was the CSS challenges of using the react-slider third-party library.
+      Since we were already using this library and it had a place in the new
+      mocks, I stuck with it, but at certian points it really tested my CSS
+      skills to get each element in the right place to match the mocks while
+      accommodating the somewhat strange CSS built into the slider component.
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Notifications Settings Tab</legend>
+    <p>
+      The Notifications Settings Page was really fun because there was so much
+      room for creativity. The stated problem I was trying to solve was that the
+      button to unsubscribe from notifications on a specific dataset could be
+      confusing to use. But this was a bit of a neglected part of the app, and
+      it wasn't meant for heavy utilization. I identified a few key ways that
+      the page could have an improved user experience and was given the freedom
+      to overhaul the page.
     </p>
     <p>
-        Three of the features Charles found most intersting to work on were
-        Derivative Dataset Flow, the Onboarding Tour Modal for new users, and
-        the Notifications Settings Tab.
+      In regards to the original button problem, the button rendered a different
+      state for "subscribed" or "not subscribed", and it changed when clicked -
+      but not immediately. This led to users double-clicking because they didn't
+      know it was processing a request to unsubscribe. I knew that whatever
+      solution I found had to be optimistic, meaning it would change as soon as
+      the user interacted with it on the assumption the network request would
+      succeed. (But it also needed to be able to revert if the network request
+      did fail, so that it wouldn't retain an inaccurate state.)
     </p>
     <p>
-        These features are discussed below in order of increasing detail.
+      Soon I realized, however, that a button really wasn't the ideal element to
+      use here. What was really being represented was a binary state - "on" or
+      "off". While a button <i>could</i> do this by changing its text and color,
+      it's confusing for an element to change underneath one's cursor. Buttons
+      usually represent a single, often irreverisble action. What we really
+      needed here was a toggle, like a lightswitch.
     </p>
-    <fieldset>
-        <legend>Onboarding Tour Modal</legend>
-        <p>
-            The Onboarding Tour Modal involved some mild engineering changes to
-            accommodate our new concept of the VPC (Virtual Private Cloud)
-            environment, which would allow certain enterprise customers to
-            customize the onboarding tour among other things. But for me, what
-            made this project fun was the CSS challenges of using the
-            react-slider third-party library. Since we were already using this
-            library and it had a place in the new mocks, I stuck with it, but at
-            certian points it really tested my CSS skills to get each element in
-            the right place to match the mocks while accommodating the somewhat
-            strange CSS built into the slider component.
-        </p>
-    </fieldset>
-    <fieldset>
-        <legend>Notifications Settings Tab</legend>
-        <p>
-            The Notifications Settings Page was really fun because the stated
-            problem I was trying to solve was that the button to unsubscribe
-            from notifications on a specific dataset could be confusing to use.
-            But this was a bit of a neglected part of the app, and it wasn't
-            meant for heavy utilization. I identified a few key ways that the
-            page could have an improved user experience and was given the
-            freedom to overhaul the page.
-        </p>
-        <p>
-            In regards to the original button problem, the button rendered a
-            different state for "subscribed" or "not subscribed", and it changed
-            when clicked - but not immediately. This led to users
-            double-clicking because they didn't know it was processing a request
-            to unsubscribe. I knew that whatever solution I found had to be
-            optimistic, meaning it would change as soon as the user interacted
-            with it on the assumption the network request would succeed (but it
-            also reverted on an error, so it never showed an inaccurate state).
-        </p>
-        <p>
-            But secondly I realized that a button wasn't the best element to use
-            here. What was really being represented was a binary state - "on" or
-            "off". While a button <i>could</i> do this by changing its text and
-            color, buttons usually represent a single, often irreverisble
-            action. What we really needed here was a toggle, like a lightswitch.
-        </p>
-        <p>
-            I also wanted to update the interface, which only displayed the name
-            of the dataset and the name of its owner. We had other dataset lists
-            in the app, so I thought it would be the best user experience to
-            imitate those, even though the functionaltiy would be slight
-            different. So I pulled in some of those same components and
-            libraries to render a nice-looking table that showed the dataset
-            name, owner name, and last updated date - but also had links to the
-            dataset and owner, and brought in tooltips for richer information.
-            Previously, this view had been a little claustrophobic, showing only
-            five datasets at a time (from a time where there weren't meant to be
-            a large number of datasets) and surfacing little information. Now it
-            felt informative and connected, as a feature in a data catalog
-            should.
-        </p>
-    </fieldset>
-    <fieldset>
-        <legend>Derivative Dataset Workflow</legend>
-        <p>
-            In the data.world app, information is organized into
-            <i>datasets</i> and <i>projects</i>, which are very similar except
-            that projects connect datasets together and can be used to
-            synthesize analyses from multiple datasets. Within a dataset or
-            project (internally, "resource" refers to either), queries can be
-            run and their results saved as new files to an existing resource. I
-            was tasked with creating a workflow called "derivative datasets,"
-            which allows the user to create a new dataset and save the file to
-            it all in one step. To the user, it appears a seamless process, but
-            the engineering was actually fairly complex.
-        </p>
-        <p>
-            The initial development was quite interesting but not especially
-            difficult on the surface. The existing flow was entirely contained
-            in a modal component called SaveResultsTableModal (I'll call it the
-            SRTM). This modal simply asked the user to name their new file and
-            select the resource it would be saved to, then displayed a success
-            message within its layout when done.
-        </p>
-        <p>
-            This first “page” of the modal would hardly change at all. However,
-            the new designs called for a transition to a sleek full-modal
-            success message with a little bit of logic depending on what kind of
-            resource the new file had been saved to. The old flow would
-            transition directly to this success page after saving the new file,
-            but the new flow would inject an intermediate page displaying the
-            Create Dataset Form.
-        </p>
-        <p>
-            I retained the SRTM as a container for all the data and logic, but
-            it only rendered a Multistep Modal – a component conveniently
-            created by a coworker just before I started this project. The
-            Multistep would be passed several other components as “views” and
-            navigate between them all within a single react-bootstrap modal, so
-            that to the user it appeared to be a streamlined, single component.
-            I altered it slightly so that instead of navigating serially through
-            its array of child components, it was able to navigate directly to a
-            specific component if needed ,allowing the old flow to bypass the
-            intermediate page containing the Dataset Creation Form.
-        </p>
-        <p>
-            Not only the SRTM but the dataset selector, which renders the
-            dropdown and is powered by a search bar component, needed quite a
-            bit of refactoring. As we had recently switched from using Flow to
-            TypeScript (something we were all very excited about), I took this
-            opportunity to make a major refactoring in the types used by the
-            search bar component, giving me my first taste of strong typing and
-            type translations (because this search bar component is widely used,
-            and passes information to many other components throughout the app).
-        </p>
-        <p>
-            Similarly, the existing component I used to render the Dataset
-            Creation Form into a modal body, the Create Resource Modal (CRM)
-            needed a large amount of work to accommodate derivative dataset
-            creation. Previously the component had only been used to create
-            projects from other modals. While the derivative dataset flow seemed
-            similar enough and natural to integrate with the CRM, it turned out
-            to be more different than I'd realized.
-        </p>
-        <p>
-            At first I just needed to get the CRM to process the derivative
-            dataset flow, and then I iterated on that logic and was able to
-            bring the two logical paths (the original, creating a project, and
-            the new, creating a dataset) into a single path, mostly by handing
-            off control to parent components when appropriate. The CRM is now
-            able to process two different flows that overall make similar calls
-            to Redux, but in different orders and with different parameters.
-        </p>
-        <p>
-            With the logic done for creating the workflow and ensuring its basic
-            functionality worked, I began writing tests. We had also just
-            started transitioning from Selenium to Cypress for our integration
-            tests, so my tests were among the first few written in Cypress. The
-            problems I encountered and solved during this process helped expose
-            flaws in both the app and in our testing procedures (and in my own
-            assumptions about both) which are now more robust than ever for it.
-        </p>
-        <p>
-            Without going into too much technical that's specific to the
-            data.world app, several parts of the workspace made certain
-            assumptions about how users would interact with the resources loaded
-            into them, and the tests for this new flow did a good job of finding
-            those assumptions.
-        </p>
-        <p>
-            Logic needed to be added to allow the workspace components to begin
-            listening to API responses to know that the new dataset was “ready”
-            to have a file saved to it, and as well that it was “ready” to be
-            linked to the project workspace, if applicable. And Cypress tests
-            move so fast I had to create similar polling logic in our tests
-            because we discovered that when a workspace loaded, it wasn't
-            actually able to actually run queries immediately (and running a
-            query is the first step of derivative dataset creation).
-        </p>
-        <p>
-            There were a few other issues exposed here, not all noteworthy. One
-            I noticed surprisingly late, several weeks after the release of the
-            feature in fact. Because there were so many different uses and
-            contexts for the SRTM within workspaces, I had not realized that the
-            SRTM didn't actually know what
-            <i>workspace</i> it was in, only which resource owned the query it
-            was opened from. This meant that in a project workspace, where the
-            user would expect their new dataset to be linked to the project, the
-            SRTM wouldn't even attempt to do so if the query they ran belonged
-            to a connected dataset instead of belonging to the project itself.
-            Luckily it was an easy fix to parse the react-router path for the
-            name of the top-level resource and load it from the Redux state, and
-            to do so only when the user had signaled they wanted to enter the
-            derivative dataset flow.
-        </p>
-    </fieldset>
+    <p>
+      I also wanted to update the interface, which only displayed the name of
+      the dataset and the name of its owner. We had other dataset lists in the
+      app, so I thought it would be the best user experience to imitate those,
+      even though the functionality would be slight different. So I pulled in
+      some of those same components and libraries to render a nice-looking table
+      that showed the dataset name, owner name, and last updated date - but also
+      had links to the dataset and owner, and brought in tooltips for richer
+      information. Previously, this view had been a little claustrophobic,
+      showing only five datasets at a time (from a time long ago where there
+      weren't meant to be a large number of datasets) and surfacing little
+      information. Now it felt informative and connected, as a feature in a data
+      catalog should.
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Derivative Dataset Workflow</legend>
+    <p>
+      In the data.world app, information is organized into
+      <i>datasets</i> and <i>projects</i>, which are very similar. The key
+      difference is that projects connect datasets together and can be used to
+      analyze data across multiple datasets. Within a dataset or project
+      (internally, "resource" refers to either), queries can be run and their
+      results saved as new files to an existing resource. I was tasked with
+      creating a workflow called "derivative datasets," which allows the user to
+      create a new dataset and save the file to it all in one step. To the user,
+      it appears a seamless process, but the engineering was actually fairly
+      complex.
+    </p>
+    <p>
+      The initial development was quite interesting but not especially difficult
+      on the surface. The existing flow was entirely contained in a modal
+      component called SaveResultsTableModal (I'll call it the SRTM). This modal
+      simply asked the user to name their new file and select the resource
+      (either a dataset or a project) it would be saved to, then displayed a
+      success message within its layout when done.
+    </p>
+    <p>
+      This first “page” of the modal would hardly change at all. However, the
+      new designs called for a transition to a sleek full-modal success message
+      with a little bit of variation depending on what kind of resource the new
+      file had been saved to. The original user flow would transition directly
+      to this success "page" after saving the new file, but the new flow would
+      inject an intermediate page displaying the Create Dataset Form.
+    </p>
+    <p>
+      I retained the SRTM as a container for all the data and logic, but all its
+      content was replaced with a Multistep Modal – a new component conveniently
+      created by a coworker just before I started this project. The Multistep
+      would be passed several other components as “views” and navigate between
+      them all within a single react-bootstrap modal, so that to the user it
+      appeared to be a streamlined, single component. I altered it slightly so
+      that instead of navigating serially through its array of child components,
+      it was able to navigate directly to a specific component if needed. This
+      allowed the original flow to bypass the intermediate page containing the
+      new Dataset Creation Form.
+    </p>
+    <p>
+      Another component in need of deep refactoring for this flow was the
+      dataset selector. It's a search bar paired with a dropdown of top results,
+      similar in UX to an internet search engine. As we had recently switched
+      from using Flow to TypeScript (something we were all very excited about),
+      I took this opportunity to make a major refactoring in the types used by
+      the search bar component, giving me my first taste of strong typing and
+      type translations (because the underlying search bar component is widely
+      used across the app, and passes a variety of information types to many
+      other components).
+    </p>
+    <p>
+      Similarly, the existing component I used to render the Dataset Creation
+      Form into a modal body, the Create Resource Modal (CRM) needed a large
+      amount of work to accommodate derivative dataset creation. Previously the
+      component had only been used to create <i>projects</i> from other modals,
+      not datasets. While this at first seemed a trivial difference, it turned
+      out to be an interseting puzzle.
+    </p>
+    <p>
+      At first I just needed to get the CRM to process the derivative dataset
+      flow, and then I iterated on that logic and was able to bring the two
+      logical paths (the original, creating a project, and the new, creating a
+      dataset) into a single path, mostly by handing off control to parent
+      components when appropriate. The CRM is now able to process two different
+      flows. While each flow makes similar calls to Redux, the parameters and
+      the sequencing is slightly different in many cases.
+    </p>
+    <p>
+      With the logic done for creating the workflow and ensuring its basic
+      functionality worked, I began writing tests. We had also just started
+      transitioning from Selenium to Cypress for our integration tests, so my
+      tests were among the first few written in Cypress. The problems I
+      encountered and solved during this process helped expose hidden flaws in
+      the app, in our testing procedures, and in my own assumptions about both.
+    </p>
+    <p>
+      Without going into too much technical that's specific to the data.world
+      app, several parts of the workspace made certain assumptions about how
+      users would interact with the resources loaded into them, and the tests
+      for this new flow did a good job of finding those assumptions.
+    </p>
+    <p>
+      I found that when a new dataset was created, it wasn't necessarily ready
+      to be linked to files nad projects straight away. Some server-side
+      processing needed to be handled first. Logic needed to be added to allow
+      the workspace components to begin listening to API responses to know that
+      the new dataset was “ready” to have a file saved to it, and as well that
+      it was “ready” to be linked to the project workspace, if applicable. And
+      Cypress tests move so fast I had to create similar polling logic in our
+      tests because we discovered that when a workspace loaded, it wasn't
+      actually able to actually run queries immediately (and running a query is
+      the first step of derivative dataset creation).
+    </p>
+    <p>
+      There were a few other issues exposed here, not all noteworthy. One I
+      noticed surprisingly late, several weeks after the release of the feature
+      in fact. Because there were so many different uses and contexts for the
+      SRTM within workspaces, I had not realized that the SRTM didn't actually
+      know what
+      <i>workspace</i> it was in, only which resource owned the query it was
+      opened from. (The workspace is a view that can be used to work with the
+      files in either a dataset or a project.) This meant that in a project
+      workspace, where the user would expect their new dataset to be linked to
+      the project, the SRTM might not even attempt to do so. See, a project can
+      contain a dataset, but both projects and datasets can own queries. If the
+      query used to generate a derivative dataset belonged to the project, all
+      was well. But if it belonged to a dataset connected to that project, this
+      was where the process would fail. Luckily it was an easy fix. When the
+      user entered the derivate dataset flow, we could examine the route to find
+      out what the top-level resource was (either a project or a dataset) and
+      then load that resource from the Redux state.
+    </p>
+  </fieldset>
 </article>
