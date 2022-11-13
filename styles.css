@@ -1,0 +1,44 @@
+main {
+    max-width: 800px;
+    padding: 1.5rem;
+    margin: 0 auto 1rem;
+    background-color: #eff;
+	color: #211d1b;
+    border-radius: 1rem;
+}
+
+body {
+    background-color: #211d1b;
+	color: #E6E6E6;
+}
+
+a {
+    color: #e09c1d;
+}
+
+a:visited {
+    color: #e09c1d;
+}
+
+a:hover {
+    color: #e09c1d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+nav a {
+    padding: .5rem .75rem;
+    margin: 0 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
