@@ -1,0 +1,18 @@
+{
+    "headers": [
+        "week",
+        "1st Rest",
+        "1st Labor",
+        "2nd Labor",
+        "3rd Labor",
+        "2nd Rest"
+    ],
+    "weeks": [
+        "primus",
+        "secundus",
+        "tertius",
+        "quartus",
+        "quintus",
+        "sextus"
+    ]
+}

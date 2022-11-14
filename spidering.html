@@ -1,0 +1,24 @@
+---
+layout: default
+title: spidering
+---
+
+<h1>Spidering on the Web</h1>
+
+<p>
+    Thanks for coming here. I'm in the process of collecting my photos and
+    journals into a blog format. Here's a few pictures of spiders for you to
+    enjoy in the meantime.
+</p>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    {% assign image_files = site.static_files | where: "image", true %} {% for
+    myimage in image_files %}
+    <image
+        src="{{myimage.path}}"
+        alt=""
+        width="400"
+        style="margin: 1rem;"
+    />
+    {% endfor %}
+</div>
