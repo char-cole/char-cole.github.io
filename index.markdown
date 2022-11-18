@@ -34,7 +34,7 @@ well as microscopy/photomicrography. Arthropods are a particular interest due to
 their alien body structures and delicate features, and I spend many hours
 "spidering" (tracking down and identifying spiders).
 
-Spidering blog is under construction.
+<a href="/photography">See my blog</a>
 
 ## other interests
 
