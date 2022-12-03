@@ -22,7 +22,8 @@ title: charcole.cc
 email: webadmin@charcole.cc
 baseurl: "" 
 url: "https://charcole.cc" 
-github_username:  char-cole
+github_username: char-cole
+destination: docs
 
 # Build settings
 theme: minima
