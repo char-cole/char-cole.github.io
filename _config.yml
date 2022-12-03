@@ -44,11 +44,11 @@ collections:
   insecta:
     output: true
 
-exclude:
-  - images/
+# exclude:
+#   - images/
 
-include:
-  - docs/images
+# include:
+#   - docs/images
 
 
 # Exclude from processing.
