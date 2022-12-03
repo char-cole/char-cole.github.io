@@ -22,14 +22,17 @@ layout: default
 <div>
     {% for genus in family %}
     <h2 id="{{genus.id}}">{{genus.name}}</h2>
+
     {% if genus.common %}
-    <h3>"{{genus.common}}"</h3>
+        {% assign name = genus.common %}
+        <h3>"{{name}}"</h3>
+    {% else %}
+        {% assign name = genus.name %}
     {% endif %}
+
     <p>{{genus.description}}</p>
 
-    {% assign name = genus.common or genus.name %}
-
-    <h3>Videos of {{name}}s</h3>
+    <h3>Videos of {{name}}</h3>
     {% assign videos = genus.videos %}
     <ul>
         {% for video in videos %}
@@ -44,19 +47,19 @@ layout: default
         {% endfor %}
     </ul>
 
-    <h3>Images of {{name}}s</h3>
+    <h3>Images of {{name}}</h3>
     {% assign prefix = genus.imgPrefix %} {% assign images = site.static_files |
     where_exp:"file", "file.name contains prefix" %} {% assign captions =
     genus.captions %}
     <div
         style="
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             grid-gap: 1rem;
         "
     >
         {% for img in images %}
-        <figure style="grid-column: auto">
+        <figure style="grid-column: auto; display: flex; flex-direction: column; align-items: center;">
             <a
                 target="_blank"
                 href="{{img.path}}"
