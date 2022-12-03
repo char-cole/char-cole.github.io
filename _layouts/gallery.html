@@ -27,7 +27,9 @@ layout: default
     {% endif %}
     <p>{{genus.description}}</p>
 
-    <h3>Videos</h3>
+    {% assign name = genus.common or genus.name %}
+
+    <h3>Videos of {{name}}s</h3>
     {% assign videos = genus.videos %}
     <ul>
         {% for video in videos %}
@@ -42,10 +44,10 @@ layout: default
         {% endfor %}
     </ul>
 
-    <h3>Images of {{genus.common or genus.name}}</h3>
+    <h3>Images of {{name}}s</h3>
     {% assign prefix = genus.imgPrefix %} {% assign images = site.static_files |
-    where_exp:"file", "file.name contains prefix" %}
-    {% assign captions = genus.captions %}
+    where_exp:"file", "file.name contains prefix" %} {% assign captions =
+    genus.captions %}
     <div
         style="
             display: grid;
