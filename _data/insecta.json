@@ -4,8 +4,27 @@
             "name": "Zelus longpipes Linnaeus",
             "id": "zelus-longpipes",
             "imgPrefix": "rzl",
-            "common": "Milkweed assassin bug",
-            "description": "Named for its resemblance to the milkweed bug. Widely found from the southern US to South America. Rather than a pest, this insect is known to predate on agricultural pest species and is considered beneficial. Color ranges from pale orange to deep ruby-red."
+            "common": "milkweed assassin bug",
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/shorts/KiNq_G8BNQs",
+                    "desc": "hunting behavior of Z. longpipes Linnaeus nymph"
+                }
+            ],
+            "captions": [
+                "Young nymph looking out from leaf edge, with proboscis folded under body.",
+                "Young nymph looking out from leaf edge, with body spines visible.",
+                "Large nymph on underside of leaf with fly impaled on proboscis.",
+                "Large, bright orange nymph with proboscis and early wing growth visible.",
+                "Two large, red nymphs in grass with small wings visible.",
+                "Shed exoskeleton of a large nymph.",
+                "Six large nymphs with varied coloration.",
+                "Three large nymphs with early wing growth visible.",
+                "For large nymphs with early wing growth and one imago on leaf litter.",
+                "Numerous small, pale, very young nymphs on sunflower leaves.",
+                "Numerous small, pale, very young nymphs on sunflower leaves."
+            ],
+            "description": "Named for its resemblance to the milkweed bug. Widely found from the southern US to South America. Rather than a pest, this insect is known to predate on agricultural pest species and is considered beneficial. Nymph coloration ranges from pale orange to deep ruby-red."
         }
     ]
 }

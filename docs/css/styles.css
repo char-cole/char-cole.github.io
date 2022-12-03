@@ -3,28 +3,31 @@ main {
     padding: 1.5rem;
     margin: 0 auto 1rem;
     background-color: #eff;
-	color: #211d1b;
+    color: #211d1b;
     border-radius: 1rem;
 }
 
 body {
     background-color: #211d1b;
-	color: #E6E6E6;
+    color: #e6e6e6;
 }
 
 a {
     color: #ad3273;
 }
-
 a:visited {
     color: #ad3273;
 }
-
 a:hover {
     color: #ad3273;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
 }
 
@@ -35,7 +38,7 @@ nav {
 }
 
 nav a {
-    padding: .5rem .75rem;
+    padding: 0.5rem 0.75rem;
     margin: 0 1rem;
     color: #e09c1d;
     display: flex;
@@ -43,22 +46,40 @@ nav a {
     justify-content: center;
     text-align: center;
 }
-
 nav a:visited {
     color: #e09c1d;
 }
-
 nav a:hover {
     color: #e09c1d;
 }
 
 li {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
     border-bottom: 1px solid black;
     margin-top: 2.5rem;
+}
+
+div.imgbox {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.imgbox:hover {
+    border: 1px solid #000;
+}
+
+div.imgbox img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {

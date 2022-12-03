@@ -1,31 +1,71 @@
 ---
 layout: default
 ---
-<h1>{{ page.heading }}</h1>
+
+<h1>Family: {{ page.heading }}</h1>
+<ul>
+    <li>Class: {{page.class}}</li>
+    <li>Order: {{page.order}}</li>
+</ul>
 {% assign family = site.data[page.class][page.family] %}
+
+<h2>Description</h2>
+
+{{ content }}
+
 <h2>Species</h2>
 <ul>
-    {% for heading in family %}
-    <li><a href="#{{ heading.id }}">{{ heading.name }}</a></li>
+    {% for genus in family %}
+    <li><a href="#{{ genus.id }}">{{ genus.name }}</a></li>
     {% endfor %}
 </ul>
-<h2>Description</h2>
-{{ content }} {% for heading in family %}
 <div>
-    <h2 id="{{heading.id}}">{{heading.name}}</h2>
-    {% if heading.common %}
-    <h3>"{{heading.common}}"</h3>
+    {% for genus in family %}
+    <h2 id="{{genus.id}}">{{genus.name}}</h2>
+    {% if genus.common %}
+    <h3>"{{genus.common}}"</h3>
     {% endif %}
-    <p>{{heading.description}}</p>
-    {% assign prefix = heading.imgPrefix %}
-    {% assign images = site.static_files | where_exp:"file", "file.name contains prefix" %}
-    {% for img in images %}
-    <img
-        src="{{img.path}}"
-        alt="{{img.alt}}"
-        width="350"
-        style="margin: 1rem"
-    />
-    {% endfor %}
+    <p>{{genus.description}}</p>
+
+    <h3>Videos</h3>
+    {% assign videos = genus.videos %}
+    <ul>
+        {% for video in videos %}
+        <li>
+            <a
+                href="{{video.url}}"
+                target="_blank"
+                rel="noreferrer noopener"
+                >{{video.desc}}</a
+            >
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h3>Images of {{genus.common or genus.name}}</h3>
+    {% assign prefix = genus.imgPrefix %} {% assign images = site.static_files |
+    where_exp:"file", "file.name contains prefix" %}
+    {% assign captions = genus.captions %}
+    <div
+        style="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 1rem;
+        "
+    >
+        {% for img in images %}
+        <figure style="grid-column: auto">
+            <a
+                target="_blank"
+                href="{{img.path}}"
+            >
+                <div
+                    style="width: 250px; height: 250px; background-image: url({{img.path}}); background-position: center; background-size: 140%;"
+                ></div>
+            </a>
+            <figcaption>{{captions[forloop.index0]}}</figcaption>
+        </figure>
+        {% endfor %}
+    </div>
 </div>
 {% endfor %}
