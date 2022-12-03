@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<h1>{{ page.heading }}</h1>
+{% assign family = site.data[page.class][page.family] %}
+<h2>Species</h2>
+<ul>
+    {% for heading in family %}
+    <li><a href="#{{ heading.id }}">{{ heading.name }}</a></li>
+    {% endfor %}
+</ul>
+<h2>Description</h2>
+{{ content }} {% for heading in family %}
+<div>
+    <h2 id="{{heading.id}}">{{heading.name}}</h2>
+    {% if heading.common %}
+    <h3>"{{heading.common}}"</h3>
+    {% endif %}
+    <p>{{heading.description}}</p>
+    {% assign prefix = heading.imgPrefix %}
+    {% assign images = site.static_files | where_exp:"file", "file.name contains prefix" %}
+    {% for img in images %}
+    <img
+        src="{{img.path}}"
+        alt="{{img.alt}}"
+        width="350"
+        style="margin: 1rem"
+    />
+    {% endfor %}
+</div>
+{% endfor %}

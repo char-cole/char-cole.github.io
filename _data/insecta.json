@@ -1,0 +1,11 @@
+{
+    "reduviidae": [
+        {
+            "name": "Zelus longpipes Linnaeus",
+            "id": "zelus-longpipes",
+            "imgPrefix": "rzl",
+            "common": "Milkweed assassin bug",
+            "description": "Named for its resemblance to the milkweed bug. Widely found from the southern US to South America. Rather than a pest, this insect is known to predate on agricultural pest species and is considered beneficial. Color ranges from pale orange to deep ruby-red."
+        }
+    ]
+}
