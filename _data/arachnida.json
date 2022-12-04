@@ -1,11 +1,16 @@
 {
-    "salticidae": [
+    "Salticidae": [
         {
             "name": "Anasaitas canosa",
             "id": "anasaitas-canosa",
             "imgPrefix": "sac",
-            "common":"Twin-flagged jumping spider",
-            "description": "Very common in central Texas. All photos taken on Pixel 5."
+            "common": "Twin-flagged jumping spider",
+            "captions": [
+                "<i>Anasaitas canosa</i> scouting on a dead leaf.",
+                "The same specimen on a stone.",
+                "Tentatively identified as <i>A. canosa</i> by the coloration of the legs and pedipalps, but without photos from other angles it is difficult to be confident."
+            ],
+            "description": "A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast. Primarily black and white in coloration, this spider is named for the pair of white spots present on the dorsal cephalothorax of males and females. But this species actually has numerous pairs of high-contrast markings all down its dorsal side and on its pedipalps."
         }
     ]
 }

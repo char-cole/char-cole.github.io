@@ -1,0 +1,6 @@
+<div>
+    {% for page in include.class %}
+    <a href="{{page.url}}">{{ page.family }} ({{ page.common }})</a>
+    <p>{{ include.families[page.family] | size }} species in catalogue</p>
+    {% endfor %}
+</div>

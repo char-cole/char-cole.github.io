@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Class: {{page.class}}</h1>
+
+{{content}}
+
+<h2>Families</h2>
+
+{% assign class = site[page.class] %}
+{% assign families = site.data[page.class] %}
+{% include families.html class=class families=families %}

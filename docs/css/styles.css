@@ -7,6 +7,11 @@ main {
     border-radius: 1rem;
 }
 
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #211d1b;
     color: #e6e6e6;

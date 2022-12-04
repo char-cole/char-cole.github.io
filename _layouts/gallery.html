@@ -2,10 +2,19 @@
 layout: default
 ---
 
-<h1>Family: {{ page.heading }}</h1>
+<h1>{{ page.common }}</h1>
 <ul>
-    <li>Class: {{page.class}}</li>
-    <li>Order: {{page.order}}</li>
+    <li>
+        Class: {{page.class}}
+        <ul>
+            <li>
+                Order: {{page.order}}
+                <ul>
+                    <li>Family: <b>{{page.family}}</b></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
 {% assign family = site.data[page.class][page.family] %}
 
@@ -23,15 +32,13 @@ layout: default
     {% for genus in family %}
     <h2 id="{{genus.id}}">{{genus.name}}</h2>
 
-    {% if genus.common %}
-        {% assign name = genus.common %}
-        <h3>"{{name}}"</h3>
-    {% else %}
-        {% assign name = genus.name %}
-    {% endif %}
+    {% if genus.common %} {% assign name = genus.common %}
+    <h3>"{{name}}"</h3>
+    {% else %} {% assign name = genus.name %} {% endif %}
 
     <p>{{genus.description}}</p>
 
+    {% if genus.videos %}
     <h3>Videos of {{name}}</h3>
     {% assign videos = genus.videos %}
     <ul>
@@ -46,6 +53,7 @@ layout: default
         </li>
         {% endfor %}
     </ul>
+    {% endif %}
 
     <h3>Images of {{name}}</h3>
     {% assign prefix = genus.imgPrefix %} {% assign images = site.static_files |
@@ -59,7 +67,14 @@ layout: default
         "
     >
         {% for img in images %}
-        <figure style="grid-column: auto; display: flex; flex-direction: column; align-items: center;">
+        <figure
+            style="
+                grid-column: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            "
+        >
             <a
                 target="_blank"
                 href="{{img.path}}"

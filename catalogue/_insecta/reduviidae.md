@@ -1,12 +1,11 @@
 ---
 layout: gallery
-title: Reduviidae
 categories: photography insecta
 permalink: catalogue/reduviidae
-heading: Reduviidae (Assassin Bugs)
-class: insecta
-order: hemiptera
-family: reduviidae
+class: Insecta
+order: Hemiptera
+family: Reduviidae
+common: Assassin Bugs
 ---
 
 Assassin bugs (family Reduviidae) are "true bugs" - members of order Hemiptera
