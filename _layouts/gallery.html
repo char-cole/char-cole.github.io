@@ -80,8 +80,15 @@ layout: default
                 href="{{img.path}}"
             >
                 <div
-                    style="width: 250px; height: 250px; background-image: url({{img.path}}); background-position: center; background-size: 140%;"
-                ></div>
+                    class="image-container"
+                    style="background-image: url({{img.path}});"
+                >
+                    <div class="overlay"></div>
+                    <img
+                        alt="Click to embiggen"
+                        src="/images/embiggen.png"
+                    />
+                </div>
             </a>
             <figcaption>{{captions[forloop.index0]}}</figcaption>
         </figure>
