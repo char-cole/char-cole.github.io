@@ -24,11 +24,11 @@ engineer working on their UI. After the end of this contract, I began work at
 eHealthInsurance. In this role I've had opportunities to work on a NodeJS server
 as well as UI projects in a variety of frameworks and languages.
 
-<a
+See my <a
         href="https://linkedin.com/in/char-cole"
         target="_blank"
         rel="noreferrer noopener"
-        >See my linkedin profile</a
+        >linkedin profile</a
     > for (slightly) more information.
 
 ## photography
@@ -41,7 +41,7 @@ well as microscopy/photomicrography. Arthropods are a particular interest due to
 their alien body structures and delicate features, and I spend many hours
 "spidering" (tracking down and identifying spiders).
 
-<a href="/photography">See my blog</a>.
+See my <a href="/photography">photography catalogue</a>.
 
 ## other interests
 

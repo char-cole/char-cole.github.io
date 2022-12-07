@@ -5,10 +5,10 @@ layout: default
 <h1>{{ page.common }}</h1>
 <ul>
     <li>
-        Class: {{page.class}}
+        Class: <a href="{{page.class}}">{{page.class}}</a>
         <ul>
             <li>
-                Order: {{page.order}}
+                Order: <a href="{{page.class}}#{{page.order}}">{{page.order}}</a>
                 <ul>
                     <li>Family: <b>{{page.family}}</b></li>
                 </ul>
@@ -16,31 +16,42 @@ layout: default
         </ul>
     </li>
 </ul>
-{% assign family = site.data[page.class][page.family] %}
 
 <h2>Description</h2>
 
 {{ content }}
 
 <h2>Species</h2>
+
+{% assign data = site.data[page.class] %}
+{% for order_hash in data %}
+    {% assign order = order_hash[1] %}
+    {% if order.name == page.order %}
+        {% assign thisFamily = order.families | where_exp:"fam", "fam.name == page.family" %}
+        {% assign speciesList = thisFamily[0].species %}
+    {% endif %}
+{% endfor %}
+
 <ul>
-    {% for genus in family %}
-    <li><a href="#{{ genus.id }}">{{ genus.name }}</a></li>
+    {% for species in speciesList %}
+    <li><a href="#{{ species.id }}">{{ species.name }}</a></li>
     {% endfor %}
 </ul>
 <div>
-    {% for genus in family %}
-    <h2 id="{{genus.id}}">{{genus.name}}</h2>
+    {% for species in speciesList %}
+    <h2 id="{{species.id}}">{{species.name}}</h2>
 
-    {% if genus.common %} {% assign name = genus.common %}
+    {% if species.common %} {% assign name = species.common %}
     <h3>"{{name}}"</h3>
-    {% else %} {% assign name = genus.name %} {% endif %}
+    {% else %} {% assign name = species.name %} {% endif %}
 
-    <p>{{genus.description}}</p>
+    {% if species.description %}
+    <p>{{species.description}}</p>
+    {% endif %}
 
-    {% if genus.videos %}
+    {% if species.videos %}
     <h3>Videos of {{name}}</h3>
-    {% assign videos = genus.videos %}
+    {% assign videos = species.videos %}
     <ul>
         {% for video in videos %}
         <li>
@@ -56,9 +67,9 @@ layout: default
     {% endif %}
 
     <h3>Images of {{name}}</h3>
-    {% assign prefix = genus.imgPrefix %} {% assign images = site.static_files |
+    {% assign prefix = species.imgPrefix %} {% assign images = site.static_files |
     where_exp:"file", "file.name contains prefix" %} {% assign captions =
-    genus.captions %}
+    species.captions %}
     <div
         style="
             display: grid;
