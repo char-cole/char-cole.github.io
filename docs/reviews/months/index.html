@@ -1,12 +1,54 @@
----
-layout: default
-title: 'Art Review: Months of the Gregorian Calendar'
-date: 2022-11-12 19:00:38 -0600
-category: reviews
-permalink: /reviews/months/
----
-
-<h1>tier list: Months in the Gregorian Calendar</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="ie=edge"
+        />
+        <title>Art Review: Months of the Gregorian Calendar | charcole.cc</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicon-16x16.png"
+        />
+        <link
+            rel="manifest"
+            href="/static/site.webmanifest"
+        />
+        <link
+            rel="stylesheet"
+            href="/assets/main.css"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/styles.css"
+        />
+    </head>
+    <body>
+        <nav>
+            <a href="/">charcole.cc</a>
+            <a href="/catalogue/">photography</a>
+            <a href="/works">other works</a>
+        </nav>
+        <main>
+            <h1>tier list: Months in the Gregorian Calendar</h1>
 
 <p>
     In this article, the authors examine the value of months in the
@@ -346,21 +388,123 @@ permalink: /reviews/months/
     </caption>
     <thead>
         <tr>
-            {% for header in site.data.calendar.headers %}
-            <th>{{header}}</th>
-            {% endfor %}
+            
+            <th>week</th>
+            
+            <th>1st Rest</th>
+            
+            <th>1st Labor</th>
+            
+            <th>2nd Labor</th>
+            
+            <th>3rd Labor</th>
+            
+            <th>2nd Rest</th>
+            
         </tr>
-        {% for week in site.data.calendar.weeks %} {% assign weekNumber =
-        forloop.index0 %}
+         
     </thead>
     <tbody>
         <tr>
-            <td>{{week}}</td>
-            {% for i in (1..5) %}
-            <td>{{weekNumber | times: 5 | plus: i }}</td>
-            {% endfor %}
+            <td>primus</td>
+            
+            <td>1</td>
+            
+            <td>2</td>
+            
+            <td>3</td>
+            
+            <td>4</td>
+            
+            <td>5</td>
+            
         </tr>
-        {% endfor %}
+         
+    </thead>
+    <tbody>
+        <tr>
+            <td>secundus</td>
+            
+            <td>6</td>
+            
+            <td>7</td>
+            
+            <td>8</td>
+            
+            <td>9</td>
+            
+            <td>10</td>
+            
+        </tr>
+         
+    </thead>
+    <tbody>
+        <tr>
+            <td>tertius</td>
+            
+            <td>11</td>
+            
+            <td>12</td>
+            
+            <td>13</td>
+            
+            <td>14</td>
+            
+            <td>15</td>
+            
+        </tr>
+         
+    </thead>
+    <tbody>
+        <tr>
+            <td>quartus</td>
+            
+            <td>16</td>
+            
+            <td>17</td>
+            
+            <td>18</td>
+            
+            <td>19</td>
+            
+            <td>20</td>
+            
+        </tr>
+         
+    </thead>
+    <tbody>
+        <tr>
+            <td>quintus</td>
+            
+            <td>21</td>
+            
+            <td>22</td>
+            
+            <td>23</td>
+            
+            <td>24</td>
+            
+            <td>25</td>
+            
+        </tr>
+         
+    </thead>
+    <tbody>
+        <tr>
+            <td>sextus</td>
+            
+            <td>26</td>
+            
+            <td>27</td>
+            
+            <td>28</td>
+            
+            <td>29</td>
+            
+            <td>30</td>
+            
+        </tr>
+        
     </tbody>
 </table>
 
@@ -473,3 +617,12 @@ permalink: /reviews/months/
 		@apply border border-dotted text-center my-2;
 	}
 </style> -->
+
+        </main>
+        <footer>
+    <p>© Charles Cole 2022</p>
+    
+</footer>
+
+    </body>
+</html>
