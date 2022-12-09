@@ -4,7 +4,7 @@ families:
   - name: Salticidae
     species:
       - name: Anasaitas canosa
-        id: anasaitas-canosa
+        id: a-canosa
         imgPrefix: sac
         common: Twin Flagged Jumping Spider
         description: A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast. Primarily black and white in coloration, this spider is named for the pair of white spots present on the dorsal cephalothorax of males and females. But this species actually has numerous pairs of high-contrast markings all down its dorsal side and on its pedipalps.
@@ -15,7 +15,7 @@ families:
         - A small specimen which found its way onto a book on my coffee table.
         - <i>A. canosa</i> seen on an outdoor fence, looking directly at camera. Taken with Sony a7.
       - name: Phidippus clarus
-        id: phidippus-clarus
+        id: p-clarus
         imgPrefix: spc
         common: Brilliant Jumping Spider
         description: This species is brightly colored, but males and females have very different colorations. The Pixel 5 images below are very likely a female <i>P. clarus</i>, but both hue and pattern are remarkably variable in this species, and there are no exact matches to any reference photos in Rose or online resources. But when range is considered, there are no other salticids I would consider.
@@ -24,9 +24,32 @@ families:
         - The same <i>P. clarus</i> seen from the front, with silk dragline visible in the background.
         - Another shot of the same specimen after it turned to face the other direction.
       - name: Habronattus coecatus
-        id: habronattus-coecatus
+        id: h-coecatus
         imgPrefix: shc
         description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely identification (at least to the genus).
         captions:
-        - "Grey jumping spider with faint markings on a green leaf."
-        - "Front-facing shot of the same <i>Habronattus spp.</i>"
+        - Grey jumping spider with faint markings on a green leaf.
+        - Front-facing shot of the same <i>Habronattus spp.</i>
+  - name: Corinnidae
+    species:
+      - name: Castianeira descripta
+        id: c-descripta
+        imgPrefix: ccd
+        common: Red-spotted Ant Mimic
+        description: Known to run on six legs, using its front pair as antennae similar to ants, this species is sometimes said to use that behavior to trick ants into letting it get close enough to prey on them. However, I will note that I have never seen a reference for this factoid and it seems dubious, given that the spider is much larger than even soldier-caste leaf cutter ants in central Texas and not color or shaped like them.
+        captions:
+        - A fast-running, hairless black spider hiding from me under a hopelessly small twig.
+        - The same <i>C. descripta</i>, with large red opisthosoma marking clearly visible, sheltering beside a piece of bark.
+  - name: Oxyopidae
+    species:
+      - name: Peucetia viridans
+        id: p-viridans
+        imgPrefix: opv
+        common: Green Lynx Spider
+        description: Hard to mistake, this spider is vivid green, blending in effectively with certain leaves (and standing out sorely from duller plants). Though there is one jumping spider with similar shape and coloration, <i>P. viridans</i> has long leg spines visible to the naked eye and sometimes white, yellow, pink, or red chevrons marking its opisthosoma. As with all Oxyopidae, the eight eyes are small and arranged somewhat hexagonally, but <i>P. viridans</i> bears them in a tight grouping around a dark spot at the top of its prosoma.
+        captions:
+        - Bright green spider with long legs blending in with sweet potato leaves. Despite missing two legs, it has captured a house fly as prey.
+        - The same specimen, still missing two legs, having captured a fruit fly the next day.
+        - A vivid <i>P. viridans</i> with barely visible chevron markings, resting in excellent camouflage on a basil leaf.
+        - An extraordinarily large and colorful specimen (likely female based on size), holding a first tarsus to its chelicerae.
+        - Another shot of the same specimen, with brightly colored and distinct chevrons visible.

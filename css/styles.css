@@ -88,8 +88,10 @@ h2 {
     position: relative;
     width: 250px;
     height: 250px;
+    background-color: black;
     background-position: center;
-    background-size: 140%;
+    background-size: 130%;
+    background-repeat: no-repeat;
 }
 .image-container img {
     filter: drop-shadow(0 0 5px black);
