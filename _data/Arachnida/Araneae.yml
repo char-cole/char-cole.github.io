@@ -6,11 +6,27 @@ families:
       - name: Anasaitas canosa
         id: anasaitas-canosa
         imgPrefix: sac
-        common: Twin-flagged jumping spider
-        captions: 
-        - <i>Anasaitas canosa</i> scouting on a dead leaf.
-        - The same specimen on a stone.
-        - Tentatively identified as <i>A. canosa</i> by the coloration of the legs and pedipalps, but without photos from other angles it is difficult to be confident.
-        - A small specimen which found its way onto my coffee table.
-        - <i>A. canosa</i> seen on an outdoor fence. Taken with Sony a7.
+        common: Twin Flagged Jumping Spider
         description: A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast. Primarily black and white in coloration, this spider is named for the pair of white spots present on the dorsal cephalothorax of males and females. But this species actually has numerous pairs of high-contrast markings all down its dorsal side and on its pedipalps.
+        captions: 
+        - Grey and black jumping spider with mirrored white markings scouting on a dead leaf.
+        - The same <i>Anasaitas canosa</i> on a stone, partially camouflaged.
+        - Tentatively identified as <i>A. canosa</i> by the coloration of the legs and pedipalps, but without photos from other angles it is difficult to be confident.
+        - A small specimen which found its way onto a book on my coffee table.
+        - <i>A. canosa</i> seen on an outdoor fence, looking directly at camera. Taken with Sony a7.
+      - name: Phidippus clarus
+        id: phidippus-clarus
+        imgPrefix: spc
+        common: Brilliant Jumping Spider
+        description: This species is brightly colored, but males and females have very different colorations. The Pixel 5 images below are very likely a female <i>P. clarus</i>, but both hue and pattern are remarkably variable in this species, and there are no exact matches to any reference photos in Rose or online resources. But when range is considered, there are no other salticids I would consider.
+        captions:
+        - Fuzzy-looking orange and brown jumping spider found on a watering can.
+        - The same <i>P. clarus</i> seen from the front, with silk dragline visible in the background.
+        - Another shot of the same specimen after it turned to face the other direction.
+      - name: Habronattus coecatus
+        id: habronattus-coecatus
+        imgPrefix: shc
+        description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely identification (at least to the genus).
+        captions:
+        - "Grey jumping spider with faint markings on a green leaf."
+        - "Front-facing shot of the same <i>Habronattus spp.</i>"

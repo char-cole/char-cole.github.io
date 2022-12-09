@@ -28,13 +28,13 @@ layout: default
     {% assign order = order_hash[1] %}
     {% if order.name == page.order %}
         {% assign thisFamily = order.families | where_exp:"fam", "fam.name == page.family" %}
-        {% assign speciesList = thisFamily[0].species %}
+        {% assign speciesList = thisFamily[0].species | sort: "name" %}
     {% endif %}
 {% endfor %}
 
 <ul>
     {% for species in speciesList %}
-    <li><a href="#{{ species.id }}">{{ species.name }}</a></li>
+    <li><a href="#{{ species.id }}">{{ species.name }}</a> ({{species.captions | size}} images)</li>
     {% endfor %}
 </ul>
 <div>

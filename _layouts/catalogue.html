@@ -11,10 +11,13 @@ layout: default
 {% assign pages = site[page.class] %} {% assign data = site.data[page.class] %}
 
 {% for order_hash in data %}
-    {% assign order = order_hash[1] %}
-    {% assign orderPages = pages | where_exp:"pg", "pg.order == order.name" %}
-    <h3 id="{{order.name}}">Order {{order.name}} ({{order.common}})</h3>
-    {% for page in orderPages %}
-    <a href="/{{page.permalink}}">Family {{page.family}}</a> ({{page.common}})
+    {% assign orderData = order_hash[1] %}
+    <h3 id="{{orderData.name}}">Order {{orderData.name}} ({{orderData.common}})</h3>
+
+    {% for familyData in orderData.families %}
+    {% assign familyPage = pages | where_exp:"page", "page.family == familyData.name" | first %}
+    
+    <a href="/{{familyPage.permalink}}">Family {{familyData.name}}</a> ({{familyPage.common}})
+    <p>{{familyData.species | size}} species in catalogue</p>
     {% endfor %}
 {% endfor %}
