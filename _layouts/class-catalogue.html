@@ -14,10 +14,11 @@ layout: default
     {% assign orderData = order_hash[1] %}
     <h3 id="{{orderData.name}}">Order {{orderData.name}} ({{orderData.common}})</h3>
 
-    {% for familyData in orderData.families %}
+    {% assign sortedFamilies = orderData.families | sort:"name" %}
+    {% for familyData in sortedFamilies %}
     {% assign familyPage = pages | where_exp:"page", "page.family == familyData.name" | first %}
     
     <a href="/{{familyPage.permalink}}">Family {{familyData.name}}</a> ({{familyPage.common}})
-    <p>{{familyData.species | size}} species in catalogue</p>
+    <p><small><i><b>{{familyData.species | size}}</b> species in catalogue</i></small></p>
     {% endfor %}
 {% endfor %}

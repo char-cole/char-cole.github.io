@@ -9,8 +9,8 @@ families:
         common: Twin Flagged Jumping Spider
         description: A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast. Primarily black and white in coloration, this spider is named for the pair of white spots present on the dorsal cephalothorax of males and females. But this species actually has numerous pairs of high-contrast markings all down its dorsal side and on its pedipalps.
         captions: 
-        - Grey and black jumping spider with mirrored white markings scouting on a dead leaf.
-        - The same <i>Anasaitas canosa</i> on a stone, partially camouflaged.
+        - <i>Anasaitas canosa</i> with distinctive pattern of mirrored white markings traveling across a dead leaf.
+        - The same <i>A canosa</i> on a stone, partially camouflaged.
         - Tentatively identified as <i>A. canosa</i> by the coloration of the legs and pedipalps, but without photos from other angles it is difficult to be confident.
         - A small specimen which found its way onto a book on my coffee table.
         - <i>A. canosa</i> seen on an outdoor fence, looking directly at camera. Taken with Sony a7.
@@ -18,17 +18,17 @@ families:
         id: p-clarus
         imgPrefix: spc
         common: Brilliant Jumping Spider
-        description: This species is brightly colored, but males and females have very different colorations. The Pixel 5 images below are very likely a female <i>P. clarus</i>, but both hue and pattern are remarkably variable in this species, and there are no exact matches to any reference photos in Rose or online resources. But when range is considered, there are no other salticids I would consider.
+        description: This species is brightly colored, but males and females have very different colorations. The Pixel 5 images below are almost certainly a female <i>P. clarus</i>; though the particular orange hue is not a perfect match for any reference photos I have seen, there are no other known salticids with similar patterns in central Texas. 
         captions:
-        - Fuzzy-looking orange and brown jumping spider found on a watering can.
+        - Bright and fuzzy <i>Phidippus clarus</i> jumping spider found on a watering can.
         - The same <i>P. clarus</i> seen from the front, with silk dragline visible in the background.
         - Another shot of the same specimen after it turned to face the other direction.
       - name: Habronattus coecatus
         id: h-coecatus
         imgPrefix: shc
-        description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely identification (at least to the genus).
+        description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely but uncertain identification.
         captions:
-        - Grey jumping spider with faint markings on a green leaf.
+        - Dull female jumping spider, likely <i>Habronattus coecatus</i>, on a green leaf.
         - Front-facing shot of the same <i>Habronattus spp.</i>
   - name: Corinnidae
     species:
@@ -36,10 +36,16 @@ families:
         id: c-descripta
         imgPrefix: ccd
         common: Red-spotted Ant Mimic
-        description: Known to run on six legs, using its front pair as antennae similar to ants, this species is sometimes said to use that behavior to trick ants into letting it get close enough to prey on them. However, I will note that I have never seen a reference for this factoid and it seems dubious, given that the spider is much larger than even soldier-caste leaf cutter ants in central Texas and not color or shaped like them.
+        description: Known to run on six legs, using its front pair as antennae similar to ants, this species is sometimes said to use that behavior to trick ants into letting it get close enough to prey on them. However, I will note that I have never seen a reference for this factoid and it seems dubious, given that the spider is much larger than even soldier-caste leaf cutter ants in central Texas and not color or shaped like them. Typical of Corinnidae, this species is a fast runner. It is black, nearly hairless, and has a large red mark over most of its opisthosoma, causing it to potentially be misidentified as a black widow.
         captions:
-        - A fast-running, hairless black spider hiding from me under a hopelessly small twig.
+        - <i>Castianeira descripta</i> seen running on an urban street, attempting to hide from me under a very small plant stem.
         - The same <i>C. descripta</i>, with large red opisthosoma marking clearly visible, sheltering beside a piece of bark.
+      - name: Falconina gracilis
+        id: f-gracilis
+        imgPrefix: cfg
+        description: Only found in the southern parts of some of the southernmost states, this species has no common name. The prosoma is smooth and black, while the opisthosoma is grey-brown and has distinct pale spots.
+        captions:
+        - A dark-colored <i>Falconina gracilis</i> seen running along the ground at night. It moved very quickly, and periodically stopped and appeared to plunge its "face" into the dirt. It was possibly catching tiny prey in its chelicerae.
   - name: Oxyopidae
     species:
       - name: Peucetia viridans
@@ -48,8 +54,30 @@ families:
         common: Green Lynx Spider
         description: Hard to mistake, this spider is vivid green, blending in effectively with certain leaves (and standing out sorely from duller plants). Though there is one jumping spider with similar shape and coloration, <i>P. viridans</i> has long leg spines visible to the naked eye and sometimes white, yellow, pink, or red chevrons marking its opisthosoma. As with all Oxyopidae, the eight eyes are small and arranged somewhat hexagonally, but <i>P. viridans</i> bears them in a tight grouping around a dark spot at the top of its prosoma.
         captions:
-        - Bright green spider with long legs blending in with sweet potato leaves. Despite missing two legs, it has captured a house fly as prey.
+        - <i>Peucetia viridans</i> blending in well with sweet potato leaves. Despite missing two legs, it has captured a house fly as prey.
         - The same specimen, still missing two legs, having captured a fruit fly the next day.
         - A vivid <i>P. viridans</i> with barely visible chevron markings, resting in excellent camouflage on a basil leaf.
         - An extraordinarily large and colorful specimen (likely female based on size), holding a first tarsus to its chelicerae.
         - Another shot of the same specimen, with brightly colored and distinct chevrons visible.
+  - name: Theraphosidae
+    species:
+      - name: Aphonopelma anax
+        id: a-anax
+        imgPrefix: taa
+        common: Texas Tan Tarantula
+        description: Confusingly named, this spider is best identified by contrasting its very dark legs with its tan body. The Texas Brown Tarantula, on the other hand, is more evenly brown all over. However, Rose[1] seems to describe both as the same species with high variation. I can only be certain of the genus, Aphonopelma. Females of this genus can live at least 4 decades and rarely leave their dens; males wander in spring and fall looking for mates, and only survive a couple years at maturity.
+        captions:
+        - A poor picture taken in surprise, at a distance, of a (probably male) <i>Aphonopelma spp.</i> out wandering Davis Mountains State Park in September.
+        - A likely <i>Aphonopelma anax</i> crossing a hiking trail in Big Bend National Park in late August.
+  - name: Lycosidae
+    species:
+      - name: Rabidosa rabida
+        id: r-rabida
+        imgPrefix: lrr
+        common: Rabid Wolf Spider
+        description: Despite its absurdly fearsome name, this spider is not especially aggressive or dangerous in any way. Nor, in fact, is it rare. In my personal experience it is by far the most common spider in urban and suburban central Texas. Take a headlamp into any yard or open area at night and see the grass light up; each point is almost certainly a set of <i>Rabidosa rabida</i> eyes. Although many wolf spiders look similar to the untrained eye, there are key details which make this species unmistakable. If seen from the front, narrow brown stripes extend all the way down the center of its chelicerae. If seen from above, the median (central) dark band extends all the way down the opisthosoma to the spinnerets and contains faint chevrons toward the end.
+        captions:
+        - <i>Rabidosa rabida</i> seen at night on a concrete sidewalk. Note the distinctive chevrons on the median dark band. The small size of the opisthosoma indicates a male; the dark front legs indicate a mature male.
+        - This Rabid Wolf Spider was disturbed by the grass being cut and retreated up onto the side of an urban house. This specimen clearly displays another identifying feature, a "feathered" pattern in the lateral dark bands of the opisthosoma. The large opisthosoma indicates a female.
+        - Though not easily determined from the photo, this was the largest <i>R. rabida</i> I have ever seen; it was spotted in a suburban garden at night in a yard full of dozens of other specimens. Note the high contrast between the pale chelicerae and the dark stripes running down them. As a mature specimen, this must be female because its legs are all the same color.
+        - A roughly lit specimen seen by a paved urban nature trail at night. In addition to the visible chelicerae stripes and the lateral band "feathering", the mature male's dark first legs are unique to this species.

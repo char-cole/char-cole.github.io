@@ -1,5 +1,5 @@
 ---
-layout: catalogue
+layout: class-catalogue
 title: insect catalogue
 categories: photography insecta
 class: Insecta

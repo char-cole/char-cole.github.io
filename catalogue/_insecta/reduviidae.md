@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: family-gallery
 categories: photography insecta
 permalink: catalogue/reduviidae
 class: Insecta

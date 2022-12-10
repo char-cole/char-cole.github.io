@@ -1,5 +1,5 @@
 ---
-layout: catalogue
+layout: class-catalogue
 title: arachnid catalogue
 categories: photography arachnida
 class: Arachnida

@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: family-gallery
 categories: photography arachnida
 permalink: catalogue/salticidae
 class: Arachnida
