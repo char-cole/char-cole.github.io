@@ -3,7 +3,8 @@ layout: default
 ---
 
 <h1>{{ page.common }}</h1>
-<ul>
+
+<ul role="navigation" label="taxonomy">
     <li>
         Class: <a href="{{page.class}}">{{page.class}}</a>
         <ul>
@@ -28,30 +29,30 @@ layout: default
     {% assign order = order_hash[1] %}
     {% if order.name == page.order %}
         {% assign thisFamily = order.families | where_exp:"fam", "fam.name == page.family" %}
-        {% assign speciesList = thisFamily[0].species | sort: "name" %}
+        {% assign subjectList = thisFamily[0].species | sort: "name" %}
     {% endif %}
 {% endfor %}
 
 <ul>
-    {% for species in speciesList %}
-    <li><a href="#{{ species.id }}">{{ species.name }}</a> ({{species.captions | size}} images)</li>
+    {% for subject in subjectList %}
+    <li><a href="#{{ subject.id }}">{{ subject.name }}</a> ({{subject.captions | size}} images)</li>
     {% endfor %}
 </ul>
 <div>
-    {% for species in speciesList %}
-    <h2 id="{{species.id}}">{{species.name}}</h2>
+    {% for subject in subjectList %}
+    <h2 id="{{subject.id}}">{{subject.name}}</h2>
 
-    {% if species.common %} {% assign name = species.common %}
+    {% if subject.common %} {% assign name = subject.common %}
     <h3>"{{name}}"</h3>
-    {% else %} {% assign name = species.name %} {% endif %}
+    {% else %} {% assign name = subject.name %} {% endif %}
 
-    {% if species.description %}
-    <p>{{species.description}}</p>
+    {% if subject.description %}
+    <p>{{subject.description}}</p>
     {% endif %}
 
-    {% if species.videos %}
+    {% if subject.videos %}
     <h3>Videos of {{name}}</h3>
-    {% assign videos = species.videos %}
+    {% assign videos = subject.videos %}
     <ul>
         {% for video in videos %}
         <li>
@@ -67,9 +68,9 @@ layout: default
     {% endif %}
 
     <h3>Images of {{name}}</h3>
-    {% assign prefix = species.imgPrefix %} {% assign images = site.static_files |
+    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files |
     where_exp:"file", "file.name contains prefix" %} {% assign captions =
-    species.captions %}
+    subject.captions %}
     <div
         style="
             display: grid;
