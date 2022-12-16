@@ -45,7 +45,7 @@ families:
         imgPrefix: cfg
         description: Only found in the southern parts of some of the southernmost states, this species has no common name. The prosoma is smooth and black, while the opisthosoma is grey-brown and has distinct pale spots.
         captions:
-        - A dark-colored <i>Falconina gracilis</i> seen running along the ground at night. It moved very quickly, and periodically stopped and appeared to plunge its "face" into the dirt. It was possibly catching tiny prey in its chelicerae.
+        - An adult <i>Falconina gracilis</i> seen running along the ground at night. It moved very quickly, and periodically stopped and appeared to plunge its "face" into the dirt. It was possibly catching tiny prey in its chelicerae.
   - name: Oxyopidae
     species:
       - name: Peucetia viridans

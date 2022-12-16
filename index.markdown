@@ -7,39 +7,47 @@ title: 'home'
 
 ## about me
 
-I am Charles Cole (they/them), currently a software engineer and photographer
-living in Texas, where I've spent most of my life. I studied Classical Greek at
-Southwestern University due to a longstanding love of history and linguistics.
-However, I found my interests wandering toward the end of undergrad. I studied
-sustainable agriculture and permaculture for a time. Eventually I found my way
-to Austin Coding Academy, where I studied web design & development.
+I am Charles Cole (they/them). I am currently a professional software engineer
+and amateur photographer living in Texas. In college, I studied Classical Greek
+at Southwestern University, but pursued other interests after graduation. For a
+couple years I studied sustainable agriculture and permaculture. Eventually I
+returned to Texas and later decided to pursue a career in programming; I studied
+web design & development at Austin Coding Academy.
 
 ## work history
 
-As a software engineer, I've primarily done front-end work in JavaScript and
-TypeScript. I enjoy creating something visual and interactive. After completing
-Austin Coding Academy's full-stack web development course, I was hired to make
-them a new marketing site. I then worked at data.world as a contract software
-engineer working on their UI. After the end of this contract, I began work at
-eHealthInsurance. In this role I've had opportunities to work on a NodeJS server
-as well as UI projects in a variety of frameworks and languages.
+After completing Austin Coding Academy's full-stack web development course, I
+was hired to create their <a href="https://austincodingacademy.com/"
+        target="_blank"
+        rel="noreferrer noopener"
+        >new marketing site</a> (some of what I created is still there). I then
+worked at <a
+        href="https://data.world"
+        target="_blank"
+        rel="noreferrer noopener"
+        >data.world</a
+    > on contract, developing new features and updates in
+their front end with TypeScript. Since then I have worked at eHealth, where I have built & maintained several sites, most notably <a
+        href="https://www.ehealthinsurance.com/medicare/"
+        target="_blank"
+        rel="noreferrer noopener"
+        >https://www.ehealthinsurance.com/medicare/</a
+    > (note: this site makes heavy use 3rd-party tracking).
 
 See my <a
         href="https://linkedin.com/in/char-cole"
         target="_blank"
         rel="noreferrer noopener"
         >linkedin profile</a
-    > for (slightly) more information.
+    > for slightly more information.
 
 ## photography
 
 One of my greatest joys is to create a new perspective and see the world in an
 atypical way. Cameras and other optical lenses are excellent tools for doing so.
-In my spare time, or whenever a good opportunity arises, I can often be found
-practicing so-called "macro" photography (more accurately microphotography), as
-well as microscopy/photomicrography. Arthropods are a particular interest due to
-their alien body structures and delicate features, and I spend many hours
-"spidering" (tracking down and identifying spiders).
+In my spare time, or whenever a good opportunity arises, I can often be found examining very small creatures and objects through a magnifying glass, a hand lens, a phone camera, a digital camera, a microscope, or some combination of the aforementioned.
+
+Although my primary motivation is to simply enjoy superhuman abilities of perception, I also like to document and share the amazing and alien things one is able to see with optical tools. In particular, I am an avid practitioner of "spidering", the act of seeking out and identifying spiders. But I also photograph many non-spider arthropods as well as microorganisms of all domains of life.
 
 See my <a href="/catalogue">photography catalogue</a>.
 
@@ -47,7 +55,14 @@ See my <a href="/catalogue">photography catalogue</a>.
 
 ### insect collecting
 
-Of course it's great to find an insect in the wild, moving slow enough (or not at all) to be photographed. But to have the insect on hand, viewable from any angle, through many lenses, and perhaps even mounted in a beautiful display, is another joy entirely. I practice no-kill collection only, which limits my options considerably to those rare insects which have died recently, nonviolently, and near my current location. Even so, my collection continues to grow over the years. Creating displays is a different art and one I have much to learn about from the masters.
+Of course it's great to find an insect in the wild, moving slow enough (or not
+at all) to be photographed. But to have the insect on hand, viewable from any
+angle, through many lenses, and perhaps even mounted in a beautiful display, is
+another joy entirely. I practice no-kill collection only, which limits my
+options considerably to those rare insects which have died recently,
+nonviolently, and near my current location. Even so, my collection continues to
+grow over the years. Creating displays is a different art and one I have much to
+learn about from the masters.
 
 ### gardening
 
@@ -64,13 +79,24 @@ my bugs as I allow it become overgrown.
 
 ### reading
 
-I read a lot of fiction (books and short stories) and nonfiction (articles, blogs, and sometimes books). At any given time I am likely reading or waiting on a science fiction or fantasy novel. Even in lackluster fiction, there is usually insight to be gleaned or knowledge to be uncovered – and a story to carry it forward. For nonfiction, I average about one or two articles or blog posts per day, but I often don’t finish books. One of the more difficult, but valuable, lessons I’ve learned as a reader is when to simply be done with a book I’m no longer enjoying or learning from.
+I read a lot of fiction (books and short stories) and nonfiction (articles,
+blogs, and sometimes books). At any given time I am likely reading or waiting on
+a science fiction or fantasy novel. Even in lackluster fiction, there is usually
+insight to be gleaned or knowledge to be uncovered – and a story to carry it
+forward. For nonfiction, I average about one or two articles or blog posts per
+day, but I often don’t finish books. One of the more difficult, but valuable,
+lessons I’ve learned as a reader is when to simply be done with a book I’m no
+longer enjoying or learning from.
 
 Without explanation, some of my top recommendations for fiction are:
-- _Blindsight_ or _Starfish_, by Peter Watts (who also runs a pretty good blog at rifters.org)
-- _The Children of Húrin_, by Tolkien (who wrote some other books you may be more familiar with)
-- anything in the _Hainish Cycle_, by Ursula K. Leguin (including her most famous work, _The Left Hand of Darkness_)
-- _Lilith’s Brood_, by Octavia Butler
+
+-   _Blindsight_ or _Starfish_, by Peter Watts (who also runs a pretty good blog
+    at rifters.org)
+-   _The Children of Húrin_, by Tolkien (who wrote some other books you may be
+    more familiar with)
+-   anything in the _Hainish Cycle_, by Ursula K. Leguin (including her most
+    famous work, _The Left Hand of Darkness_)
+-   _Lilith’s Brood_, by Octavia Butler
 
 ### games
 
@@ -81,11 +107,26 @@ discussing the qualities of various game we have played, exploring alternate
 mechanics or rule alterations, and designing our own games.
 
 Some of my favorite games are:
-- _Bloodborne_ (PS4) - From Software. A high-intensity action game steeped in unspeakable horror. Not for the faint of heart, and quite challenging. The only game I've ever gone for 100% completion (and still keep playing today).
-- _Forbidden Island_ (board game) - Matt Leacock. While there are sequels and probably other similar games, this game is something of a classic and an excellent cooperative board game. Many people are only familiar with competitive (and often deception-based) board games which can be frustrating or even unfun; I suggest _Forbidden Island_ or a game like it for a change of pace.
-- _Cities: Skylines_ (PC) - Colossal Order. Many of us adored SimCity growing up and were left disappointed by the downfall of the series. This game took up that mantle and ran with it, becoming something far more powerful, beautiful, and creative. While not the easiest game to get into, _Cities: Skylines_ allows tremendous freedom and endless lessons on why the best traffic management is public transit.
 
-I could (and will!) write for dozens of hours about games I've loved over the past few decades. Watch for not-at-all-timely game review blog posts in the future.
+-   _Bloodborne_ (PS4) - From Software. A high-intensity action game steeped in
+    unspeakable horror. Not for the faint of heart, and quite challenging. The
+    only game I've ever gone for 100% completion (and still keep playing today).
+-   _Forbidden Island_ (board game) - Matt Leacock. While there are sequels and
+    probably other similar games, this game is something of a classic and an
+    excellent cooperative board game. Many people are only familiar with
+    competitive (and often deception-based) board games which can be frustrating
+    or even unfun; I suggest _Forbidden Island_ or a game like it for a change
+    of pace.
+-   _Cities: Skylines_ (PC) - Colossal Order. Many of us adored SimCity growing
+    up and were left disappointed by the downfall of the series. This game took
+    up that mantle and ran with it, becoming something far more powerful,
+    beautiful, and creative. While not the easiest game to get into, _Cities:
+    Skylines_ allows tremendous freedom and endless lessons on why the best
+    traffic management is public transit.
+
+I could (and will!) write for dozens of hours about games I've loved over the
+past few decades. Watch for not-at-all-timely game review blog posts in the
+future.
 
 ### worldbuilding
 
