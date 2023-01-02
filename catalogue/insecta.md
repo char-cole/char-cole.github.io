@@ -2,7 +2,7 @@
 layout: class-catalogue
 title: insect catalogue
 categories: photography insecta
-class: Insecta
+class: insecta
 ---
 
 Insects are familiar to most people, but not necessarily well understood.

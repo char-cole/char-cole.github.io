@@ -2,8 +2,8 @@
 layout: family-gallery
 categories: photography arachnida
 permalink: catalogue/lycosidae
-class: Arachnida
-order: Araneae
+class: arachnida
+order: araneae
 family: Lycosidae
 common: Wolf Spiders
 ---

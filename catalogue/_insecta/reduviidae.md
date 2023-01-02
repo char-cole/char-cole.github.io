@@ -2,14 +2,13 @@
 layout: family-gallery
 categories: photography insecta
 permalink: catalogue/reduviidae
-class: Insecta
-order: Hemiptera
-family: Reduviidae
+class: insecta
+order: hemiptera
+family: reduviidae
 common: Assassin Bugs
 ---
 
-Assassin bugs (family Reduviidae) are "true bugs" - members of order Hemiptera
-(meaning "half-winged"). They are named for their long proboscis which they use
+Assassin bugs are named for their long proboscis which they use
 to impale other animals from ambush.
 
 There are many species of assassin bugs, and it's difficult for a layperson to

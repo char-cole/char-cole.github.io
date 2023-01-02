@@ -2,7 +2,7 @@
 layout: class-catalogue
 title: arachnid catalogue
 categories: photography arachnida
-class: Arachnida
+class: arachnida
 ---
 
 Spiders (order Araneae) are the best-known members of class Arachnida, and many

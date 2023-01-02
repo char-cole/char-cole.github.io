@@ -6,12 +6,12 @@ layout: default
 
 <ul role="navigation" label="taxonomy">
     <li>
-        Class: <a href="{{page.class}}">{{page.class}}</a>
+        Class: <a href="{{page.class}}">{{page.class | capitalize}}</a>
         <ul>
             <li>
-                Order: <a href="{{page.class}}#{{page.order}}">{{page.order}}</a>
+                Order: <a href="{{page.class}}#{{page.order}}">{{page.order | capitalize}}</a>
                 <ul>
-                    <li>Family: <b>{{page.family}}</b></li>
+                    <li>Family: <b>{{page.family | capitalize}}</b></li>
                 </ul>
             </li>
         </ul>

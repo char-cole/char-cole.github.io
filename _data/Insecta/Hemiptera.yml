@@ -1,15 +1,15 @@
-name: Hemiptera
+name: hemiptera
 common: True Bugs
 families:
-  - name: Reduviidae
+  - name: reduviidae
     species:
-      - name: Zelus longpipes Linnaeus
-        id: zelus-longpipes
+      - name: <i>Zelus longpipes</i> Linnaeus
+        id: z-longpipes
         imgPrefix: rzl
         common: Milkweed Assassin Bug
         videos:
           - url: https://www.youtube.com/shorts/KiNq_G8BNQs,
-            desc: Hunting behavior of Z. longpipes Linnaeus nymph
+            desc: Hunting behavior of <i>Z. longpipes</i> Linnaeus nymph
         captions:
           - Young nymph looking out from leaf edge, with proboscis folded under body.
           - The same specimen from behind. Notice the distinct spines only seen on the very young.
@@ -20,6 +20,6 @@ families:
           - Six large nymphs with varied coloration.
           - Three large nymphs with early wing growth visible.
           - Four large nymphs with early wing growth and one imago on leaf litter.
-          - Numerous small, pale, very young nymphs on sunflower leaves.
-          - Numerous small, pale, very young nymphs on sunflower leaves.
+          - Numerous small, pale, very young nymphs on sunflower.
+          - A second shot of this cluster of young nymphs.
         description: Named for its resemblance to the milkweed bug. Widely found from the southern US to South America. Rather than a pest, this insect is known to predate on agricultural pest species and is considered beneficial. Nymph coloration ranges from pale orange to deep ruby-red.

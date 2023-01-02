@@ -39,9 +39,9 @@ defaults:
 collections_dir: catalogue
 
 collections:
-  Arachnida:
+  arachnida:
     output: true
-  Insecta:
+  insecta:
     output: true
 
 # Exclude from processing.
