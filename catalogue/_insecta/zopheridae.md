@@ -4,7 +4,7 @@ categories: photography insecta
 permalink: catalogue/zopheridae
 class: insecta
 order: coleoptera
-family: Zopheridae
+family: zopheridae
 common: Ironclad Beetles & others
 ---
 

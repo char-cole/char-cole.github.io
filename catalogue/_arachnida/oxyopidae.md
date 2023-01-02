@@ -4,7 +4,7 @@ categories: photography arachnida
 permalink: catalogue/oxyopidae
 class: arachnida
 order: araneae
-family: Oxyopidae
+family: oxyopidae
 common: Lynx Spiders
 ---
 

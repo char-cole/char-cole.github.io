@@ -4,12 +4,18 @@ layout: default
 
 <h1>{{ page.common }}</h1>
 
-<ul role="navigation" label="taxonomy">
+<ul
+    role="navigation"
+    label="taxonomy"
+>
     <li>
         Class: <a href="{{page.class}}">{{page.class | capitalize}}</a>
         <ul>
             <li>
-                Order: <a href="{{page.class}}#{{page.order}}">{{page.order | capitalize}}</a>
+                Order:
+                <a href="{{page.class}}#{{page.order}}"
+                    >{{page.order | capitalize}}</a
+                >
                 <ul>
                     <li>Family: <b>{{page.family | capitalize}}</b></li>
                 </ul>
@@ -24,18 +30,17 @@ layout: default
 
 <h2>Species</h2>
 
-{% assign data = site.data[page.class] %}
-{% for order_hash in data %}
-    {% assign order = order_hash[1] %}
-    {% if order.name == page.order %}
-        {% assign thisFamily = order.families | where_exp:"fam", "fam.name == page.family" %}
-        {% assign subjectList = thisFamily[0].species | sort: "name" %}
-    {% endif %}
-{% endfor %}
+{% assign data = site.data[page.class] %} {% for order_hash in data %} {% assign
+order = order_hash[1] %} {% if order.name == page.order %} {% assign thisFamily
+= order.families | where_exp:"fam", "fam.name == page.family" %} {% assign
+subjectList = thisFamily[0].species | sort: "name" %} {% endif %} {% endfor %}
 
 <ul>
     {% for subject in subjectList %}
-    <li><a href="#{{ subject.id }}">{{ subject.name }}</a> ({{subject.captions | size}} images)</li>
+    <li>
+        <a href="#{{ subject.id }}">{{ subject.name }}</a> ({{subject.captions |
+        size}} images)
+    </li>
     {% endfor %}
 </ul>
 <div>
@@ -44,13 +49,14 @@ layout: default
 
     {% if subject.common %} {% assign name = subject.common %}
     <h3>"{{name}}"</h3>
-    {% else %} {% assign name = subject.name %} {% endif %}
-
-    {% if subject.description %}
+    {% else %} {% assign name = subject.name %} {% endif %} {% if
+    subject.description %}
+    <h4>Description</h4>
     <p>{{subject.description}}</p>
-    {% endif %}
-
-    {% if subject.videos %}
+    {% endif %} {% if subject.notes %}
+    <h4>Notes</h4>
+    <p>{{subject.notes}}</p>
+    {% endif %} {% if subject.videos %}
     <h3>Videos of {{name}}</h3>
     {% assign videos = subject.videos %}
     <ul>
@@ -68,8 +74,8 @@ layout: default
     {% endif %}
 
     <h3>Images of {{name}}</h3>
-    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files |
-    where_exp:"file", "file.name contains prefix" %} {% assign captions =
+    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files
+    | where_exp:"file", "file.name contains prefix" %} {% assign captions =
     subject.captions %}
     <div
         style="
@@ -106,5 +112,15 @@ layout: default
         </figure>
         {% endfor %}
     </div>
+
+    {% if subject.refs %}
+    <small>
+        <ol>
+            {% for ref in subject.refs %}
+            <li>{{ref}}</li>
+            {% endfor %}
+        </ol>
+    </small>
+    {% endif %}
 </div>
 {% endfor %}

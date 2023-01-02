@@ -1,9 +1,9 @@
-name: Coleoptera
+name: coleoptera
 common: Beetles
 families:
-  - name: Zopheridae
+  - name: zopheridae
     species:
-      - name: Zopherus nodulosus haldemani
+      - name: <i>Zopherus nodulosus</i> haldemani
         id: z-nodulosus
         imgPrefix: zzn
         common: Texas Ironclad Beetle
@@ -11,4 +11,5 @@ families:
           - This Texas Ironnclad Beetle was found motionless (but alive) on a tree trunk in cold weather. Notice the distinctive pattern and the visible black "nodules".
           - A close-up view of the head of this <i>Zopherus nodulosus haldemani</i>, illuminated by headlamp.
           - Another full-body angle of this exquisite <i>Z. n. haldemani</i>, roughly 1 inch in length.
-        description: Either a subspecies or a separate species, this specific Ironclad beetle is found only in Texas. They are thought to feed on lichens and can be found on tree trunks.
+        description: Large, long-bodied beetle. Legs are robust and uniformly black. Carapace is white with randomly arranged black spots, concentrated in the center. Spots vary in size and tend toward hexagonal shape.
+        notes: Variously considered a subspecies or a separate species, this specific Ironclad beetle is found only in Texas. They are thought to feed on lichens and can be found on tree trunks.

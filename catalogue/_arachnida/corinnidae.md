@@ -4,7 +4,7 @@ categories: photography arachnida
 permalink: catalogue/corinnidae
 class: arachnida
 order: araneae
-family: Corinnidae
+family: corinnidae
 common: Antlike Runners
 ---
 

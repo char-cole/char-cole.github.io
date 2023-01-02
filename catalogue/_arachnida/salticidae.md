@@ -4,7 +4,7 @@ categories: photography arachnida
 permalink: catalogue/salticidae
 class: arachnida
 order: araneae
-family: Salticidae
+family: salticidae
 common: Jumping Spiders
 ---
 

@@ -4,7 +4,7 @@ categories: photography arachnida
 permalink: catalogue/theridiidae
 class: arachnida
 order: araneae
-family: Theridiidae
+family: theridiidae
 common: Tangle-Web Spiders
 ---
 

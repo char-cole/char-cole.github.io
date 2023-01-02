@@ -4,7 +4,7 @@ categories: photography arachnida
 permalink: catalogue/theraphosidae
 class: arachnida
 order: araneae
-family: Theraphosidae
+family: theraphosidae
 common: Tarantulas
 ---
 

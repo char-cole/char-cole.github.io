@@ -1,54 +1,60 @@
-name: Araneae
+name: araneae
 common: Spiders
 families:
-  - name: Salticidae
+
+  - name: salticidae
     species:
-      - name: Anasaitas canosa
+      - name: <i>Anasaitas canosa</i>
         id: a-canosa
         imgPrefix: sac
         common: Twin Flagged Jumping Spider
-        description: A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast. Primarily black and white in coloration, this spider is named for the pair of white spots present on the dorsal cephalothorax of males and females. But this species actually has numerous pairs of high-contrast markings all down its dorsal side and on its pedipalps.
+        description: A small jumping spider with black, white, and grey coloration. Its name is a reference to mirrored pairs of white spots found on its pedipalps and dorsal prosoma, making this spider easily identifiable. First legs are mostly black; other legs have more pronounced splotches or banding of grey and black. This species has a wider stance than many other jumping spiders
+        notes: A very common jumping spider in central Texas, <i>Anasaitas canosa</i> is found from Mexico to the American Southeast.
         captions: 
         - <i>Anasaitas canosa</i> with distinctive pattern of mirrored white markings traveling across a dead leaf.
         - The same <i>A canosa</i> on a stone, partially camouflaged.
         - Tentatively identified as <i>A. canosa</i> by the coloration of the legs and pedipalps, but without photos from other angles it is difficult to be confident.
         - A small specimen which found its way onto a book on my coffee table.
         - <i>A. canosa</i> seen on an outdoor fence, looking directly at camera. Taken with Sony a7.
-      - name: Phidippus clarus
+      - name: <i>Phidippus clarus</i>
         id: p-clarus
         imgPrefix: spc
         common: Brilliant Jumping Spider
-        description: This species is brightly colored, but males and females have very different colorations. The Pixel 5 images below are almost certainly a female <i>P. clarus</i>; though the particular orange hue is not a perfect match for any reference photos I have seen, there are no other known salticids with similar patterns in central Texas. 
+        description: This species is brightly colored, but males and females have very different colorations. Males are mostly black, with vivid blue chelicerae, red opisthosoma markings, and white leg bands. Female coloration is a combination of orange, brown, and tan. Both morphs are covered in short hairs giving a fuzzy appearance.
         captions:
         - Bright and fuzzy <i>Phidippus clarus</i> jumping spider found on a watering can.
         - The same <i>P. clarus</i> seen from the front, with silk dragline visible in the background.
         - Another shot of the same specimen after it turned to face the other direction.
-      - name: Habronattus coecatus
+      - name: <i>Habronattus coecatus</i>
         id: h-coecatus
         imgPrefix: shc
         description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely but uncertain identification.
         captions:
         - Dull female jumping spider, likely <i>Habronattus coecatus</i>, on a green leaf.
         - Front-facing shot of the same <i>Habronattus spp.</i>
-  - name: Corinnidae
+
+  - name: corinnidae
     species:
-      - name: Castianeira descripta
+      - name: <i>Castianeira descripta</i>
         id: c-descripta
         imgPrefix: ccd
         common: Red-spotted Ant Mimic
-        description: Known to run on six legs, using its front pair as antennae similar to ants, this species is sometimes said to use that behavior to trick ants into letting it get close enough to prey on them. However, I will note that I have never seen a reference for this factoid and it seems dubious, given that the spider is much larger than even soldier-caste leaf cutter ants in central Texas and not color or shaped like them. Typical of Corinnidae, this species is a fast runner. It is black, nearly hairless, and has a large red mark over most of its opisthosoma, causing it to potentially be misidentified as a black widow.
+        description: This spider is black, nearly hairless, and has a large red mark over most of its opisthosoma, causing it to potentially be misidentified as a black widow. It will often be seen with its first legs extended in front of it like antennae.
+        notes: Known to run on six legs, using its front pair as antennae similar to ants, this species is sometimes said to use that behavior to trick ants into letting it get close enough to prey on them. However, I will note that I have never seen a reference for this factoid and it seems dubious, given that the spider is much larger than almost any ants in central Texas and not colored or shaped like them. Typical of Corinnidae, this species is a fast runner.
         captions:
         - <i>Castianeira descripta</i> seen running on an urban street, attempting to hide from me under a very small plant stem.
         - The same <i>C. descripta</i>, with large red opisthosoma marking clearly visible, sheltering beside a piece of bark.
-      - name: Falconina gracilis
+      - name: <i>Falconina gracilis</i>
         id: f-gracilis
         imgPrefix: cfg
-        description: Only found in the southern parts of some of the southernmost states, this species has no common name. The prosoma is smooth and black, while the opisthosoma is grey-brown and has distinct pale spots.
+        description: The prosoma is smooth and dark-brown to black. The opisthosoma can be the same color or paler brown, and has distinct, mirrored pale spots. The legs are more thin and brown.
+        notes: Only found in southern California and near the gulf coast, this species has no common name.
         captions:
-        - An adult <i>Falconina gracilis</i> seen running along the ground at night. It moved very quickly, and periodically stopped and appeared to plunge its "face" into the dirt. It was possibly catching tiny prey in its chelicerae.
-  - name: Oxyopidae
+        - An adult <i>Falconina gracilis</i> seen running along the ground at night. It moved very quickly, and periodically stopped and appeared to plunge its chelicerae down into the soil.
+
+  - name: oxyopidae
     species:
-      - name: Peucetia viridans
+      - name: <i>Peucetia viridans</i>
         id: p-viridans
         imgPrefix: opv
         common: Green Lynx Spider
@@ -59,36 +65,44 @@ families:
         - A vivid <i>P. viridans</i> with barely visible chevron markings, resting in excellent camouflage on a basil leaf.
         - An extraordinarily large and colorful specimen (likely female based on size), holding a first tarsus to its chelicerae.
         - Another shot of the same specimen, with brightly colored and distinct chevrons visible.
-  - name: Theraphosidae
+
+  - name: theraphosidae
     species:
-      - name: Aphonopelma anax
+      - name: <i>Aphonopelma anax</i>
         id: a-anax
         imgPrefix: taa
         common: Texas Tan Tarantula
-        description: Confusingly named, this spider is best identified by contrasting its very dark legs with its tan body. The Texas Brown Tarantula, on the other hand, is more evenly brown all over. However, Rose[1] seems to describe both as the same species with high variation. I can only be certain of the genus, Aphonopelma. Females of this genus can live at least 4 decades and rarely leave their dens; males wander in spring and fall looking for mates, and only survive a couple years at maturity.
+        description: Confusingly named, this spider is best identified by contrasting its very dark legs with its tan body. The Texas Brown Tarantula, on the other hand, is more evenly brown all over. However, Rose[1] seems to describe both as the same species with high variation.
+        notes: Females of this genus can live at least 4 decades and rarely leave their dens; males wander in spring and fall looking for mates, and only survive a couple years at maturity.
         captions:
         - A poor picture taken in surprise, at a distance, of a (probably male) <i>Aphonopelma spp.</i> out wandering Davis Mountains State Park in September.
         - A likely <i>Aphonopelma anax</i> crossing a hiking trail in Big Bend National Park in late August.
-  - name: Lycosidae
+        refs:
+        - <i>Spiders of North America</i>, Sarah Rose, 2022
+
+  - name: lycosidae
     species:
-      - name: Rabidosa rabida
+      - name: <i>Rabidosa rabida</i>
         id: r-rabida
         imgPrefix: lrr
         common: Rabid Wolf Spider
-        description: Despite its absurdly fearsome name, this spider is not especially aggressive or dangerous in any way. Nor, in fact, is it rare. In my personal experience it is by far the most common spider in urban and suburban central Texas. Take a headlamp into any yard or open area at night and see the grass light up; each point is almost certainly a set of <i>Rabidosa rabida</i> eyes. Although many wolf spiders look similar to the untrained eye, there are key details which make this species unmistakable. If seen from the front, narrow brown stripes extend all the way down the center of its chelicerae. If seen from above, the median (central) dark band extends all the way down the opisthosoma to the spinnerets and contains faint chevrons toward the end.
+        description: Primarily tan with brown marking, this species has long legs and a flat posture. Although many wolf spiders look similar to the untrained eye, there are key details which make this species unmistakable. If seen from the front, narrow brown vertical stripes extend the length of the center of its chelicerae. If seen from above, the median (central) dark band extends all the way down the opisthosoma to the spinnerets and contains faint tan chevrons toward the latter end.
+        notes: Despite its absurdly fearsome name, this spider is not especially aggressive or dangerous in any way. Nor, in fact, is it rare. In my personal experience it is by far the most common spider in urban and suburban central Texas. Take a headlamp into any yard or open area at night and see the grass light up; each point is almost certainly a set of <i>Rabidosa rabida</i> eyes.
         captions:
         - <i>Rabidosa rabida</i> seen at night on a concrete sidewalk. Note the distinctive chevrons on the median dark band. The small size of the opisthosoma indicates a male; the dark front legs indicate a mature male.
         - This Rabid Wolf Spider was disturbed by the grass being cut and retreated up onto the side of an urban house. This specimen clearly displays another identifying feature, a "feathered" pattern in the lateral dark bands of the opisthosoma. The large opisthosoma indicates a female.
         - Though not easily determined from the photo, this was the largest <i>R. rabida</i> I have ever seen; it was spotted in a suburban garden at night in a yard full of dozens of other specimens. Note the high contrast between the pale chelicerae and the dark stripes running down them. As a mature specimen, this must be female because its legs are all the same color.
         - A roughly lit specimen seen by a paved urban nature trail at night. In addition to the visible chelicerae stripes and the lateral band "feathering", the mature male's dark first legs are unique to this species.
-  - name: Theridiidae
+
+  - name: theridiidae
     species:
-      - name: Latrodectus geometricus
+      - name: <i>Latrodectus geometricus</i>
         id: l-geometricus
         imgPrefix: tlg
         common: Brown Widow Spider
-        description: Native to Africa, this species has been introduced to Europe and North America by humans. It is reported to have wide variation in color, and its signature hourglass ranges from yellow to bright red. This species may have painful venom, but its bite is not as dangerous as that of a black widow. Some research indicates that brown widows are displacing native western black widows in southern California, to the possible benefit of humans (see <a href="https://doi.org/10.1603/ME11285">Journal of Medical Entomology</a>).
+        description: This spider is reported to have highly variable coloration, but is typically yellow-brown or tan. The signature hourglass can range from yellow to red. Typical of a widow spider, this species is hairless and has long, delicate legs.
+        notes: Native to Africa, this species has been introduced to Europe and North America by humans. This species may have painful venom, but its bite is not as dangerous as that of a black widow. Some research indicates that brown widows are displacing native western black widows in southern California, to the possible benefit of humans (see <a href="https://doi.org/10.1603/ME11285">Journal of Medical Entomology</a>).
         captions:
         - Probable <i>Latrodectus geometricus</i> spotted in a characteristic "tangle web" over a small hollow in the transition zone between the Mojave & Colorado deserts of southern California.
-        - This specimen appears to have large, prominent pedipalps, indicating it a mature male.
-        - Note the signature hourglass shape on the ventral opisthosoma. Although the overall coloration makes identification difficult, this shape is telling.
+        - Pedipalps focused - This specimen appears to have large, prominent pedipalps, indicating it a mature male.
+        - Hourglass focused - Note the signature hourglass shape on the ventral opisthosoma. Although the overall coloration makes identification difficult, this shape is telling.
