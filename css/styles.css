@@ -18,13 +18,7 @@ body {
 }
 
 a {
-    color: #ad3273;
-}
-a:visited {
-    color: #ad3273;
-}
-a:hover {
-    color: #ad3273;
+    text-decoration: underline;
 }
 
 h1,
@@ -50,6 +44,7 @@ nav a {
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
 }
 nav a:visited {
     color: #e09c1d;
