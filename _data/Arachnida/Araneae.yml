@@ -32,6 +32,13 @@ families:
         captions:
         - Dull female jumping spider, likely <i>Habronattus coecatus</i>, on a green leaf.
         - Front-facing shot of the same <i>Habronattus spp.</i>
+      - name: <i>Hentzia palmarum</i>
+        id: h-palmarum
+        common: Common Hentz Jumper
+        imgPrefix: shp
+        description: Highly sexually dimorphic. Males have long, dark first legs and broad white bands around their brown bodies, as well as large pedipalps white white bands. Females are mostly a pale tan color with less distinct first legs.
+        captions:
+        - Adult male <i>H. palmarum</i> climbing up my shirt.
 
   - name: corinnidae
     species:
@@ -106,3 +113,16 @@ families:
         - Probable <i>Latrodectus geometricus</i> spotted in a characteristic "tangle web" over a small hollow in the transition zone between the Mojave & Colorado deserts of southern California.
         - Pedipalps focused - This specimen appears to have large, prominent pedipalps, indicating it a mature male.
         - Hourglass focused - Note the signature hourglass shape on the ventral opisthosoma. Although the overall coloration makes identification difficult, this shape is telling.
+
+  - name: thomisidae
+    species:
+      - name: <i>Mecaphesa asperata</i>
+        id: m-asperate
+        imgPrefix: tma
+        common: Northern Crab Spider
+        description: This spider is able to change its coloration noticeably and may be green or yellow overall. However, it is distinguished by a pair of dark vertical stripes on its dorsal prosoma and, usually, reddish coloration on the middle parts of its elongated first and second legs. The opisthosoma may be a brighter yellow with mirrored reddish markings.
+        notes: This spider is widely found in North America and can commonly be seen in wait on flowers or leaves.
+        captions:
+        - Yellow <i>Mecaphesa asperata</i> waiting for prey on a flower, with a very small ant approaching. Note the faint dark stripes on the opisthosoma.
+        - The same <i>M. asperata</i> pictured from the side. While the legs are uniformly colored, the leg spines and opisthosoma markings give this species away.
+        - A greenish northern crab spider on a sunflower. This species can take several days to change color, so this specimen may be in the process of improving its camouflage.
