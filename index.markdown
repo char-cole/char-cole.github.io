@@ -41,7 +41,7 @@ I then took a contract position at <a
 ship new features in a complex app to production.
 
 I have been at <a
-        href="ehealth.com"
+        href="https://ehealth.com"
         target="_blank"
         rel="noreferrer noopener"
         >ehealth</a
