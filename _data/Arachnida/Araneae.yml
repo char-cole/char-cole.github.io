@@ -117,7 +117,7 @@ families:
   - name: thomisidae
     species:
       - name: <i>Mecaphesa asperata</i>
-        id: m-asperate
+        id: m-asperata
         imgPrefix: tma
         common: Northern Crab Spider
         description: This spider is able to change its coloration noticeably and may be green or yellow overall. However, it is distinguished by a pair of dark vertical stripes on its dorsal prosoma and, usually, reddish coloration on the middle parts of its elongated first and second legs. The opisthosoma may be a brighter yellow with mirrored reddish markings.
@@ -126,3 +126,18 @@ families:
         - Yellow <i>Mecaphesa asperata</i> waiting for prey on a flower, with a very small ant approaching. Note the faint dark stripes on the opisthosoma.
         - The same <i>M. asperata</i> pictured from the side. While the legs are uniformly colored, the leg spines and opisthosoma markings give this species away.
         - A greenish northern crab spider on a sunflower. This species can take several days to change color, so this specimen may be in the process of improving its camouflage.
+
+  - name: tetragnathidae
+    species:
+      - name: <i>Leucauge argyrobapta </i>
+        id: l-argyrobapta
+        imgPrefix: tla
+        common: Mabel Orchard Orb Weaver
+        notes: This species is almost identical to <i>L. venusta</i> and requires microscopic examination of the genitalia for positive identification. In addition, there is some overlap in their ranges. However, a rule of thumb is that <i>L. argyrobapta</i> is expected when close to the Gulf Coast or in Florida, while <i>L. venusta</i> is seen futher north.
+        description: This orb weaver has a high, ovaloid opisthosoma which is yellow and white with dark stripes on the dorsal side. Legs are green with yellow joints. Copper-colored (sometimes red or yellow) chevron on ventral side can have metallic sheen.
+        captions:
+        - Inverted mabel orchard orb weaver photographed in its web with a clear view of the ventral chevron.
+        - <i>Leucauge argyrobapta</i> photographed out-of-focus to demonstrate the chevron's highly reflective coloration.
+        - Resident <i>L. argyrobapta</i> seen from the side while resting in its web.
+        - A (probably juvenile) mabel orchard orb weaver in a damaged web, its dorsal markings visible. Note the pale green color if its prosoma and legs.
+        - Found in the mountains of North Carolina, this is probably <i>Leucauge venusta</i>, the orchard orb weaver, resting in its web. This specimen's legs are distinctly green.
