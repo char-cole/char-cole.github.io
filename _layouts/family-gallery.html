@@ -17,7 +17,9 @@ layout: default
                     >{{page.order | capitalize}}</a
                 >
                 <ul>
+                    {% if page.family %}
                     <li>Family: <b>{{page.family | capitalize}}</b></li>
+                    {% endif %}
                 </ul>
             </li>
         </ul>
@@ -28,13 +30,31 @@ layout: default
 
 {{ content }}
 
+{% assign data = site.data[page.class] %}
+<!--  -->
+{% for order_hash in data %}
+<!--  -->
+{% assign order = order_hash[1] %}
+<!--  -->
+{% if order.name == page.order %}
+<!--  -->
+{% assign thisFamily = order.families | where_exp:"fam", "fam.name ==
+page.family" %}
+<!--  -->
+{% if thisFamily %}
+<!--  -->
+{% assign subjectList = thisFamily[0].species | sort: "name" %}
+<!--  -->
+{% endif %}
+<!--  -->
+{% assign unidentified = order.unidentified %}
+<!--  -->
+{% endif %}
+<!--  -->
+{% endfor %}
+
+{% if subjectList %}
 <h2>Species</h2>
-
-{% assign data = site.data[page.class] %} {% for order_hash in data %} {% assign
-order = order_hash[1] %} {% if order.name == page.order %} {% assign thisFamily
-= order.families | where_exp:"fam", "fam.name == page.family" %} {% assign
-subjectList = thisFamily[0].species | sort: "name" %} {% endif %} {% endfor %}
-
 <ul>
     {% for subject in subjectList %}
     <li>
@@ -43,6 +63,20 @@ subjectList = thisFamily[0].species | sort: "name" %} {% endif %} {% endfor %}
     </li>
     {% endfor %}
 </ul>
+{% endif %}
+
+<!-- {% if unidentified.size > 0 %}
+<h2>Unidentified Specimens</h2>
+<ul>
+    {% for subject in unidentified %}
+    <li>
+        <a href="#{{ subject.id }}">{{ subject.name }}</a> ({{subject.captions |
+        size}} images)
+    </li>
+    {% endfor %}
+</ul>
+{% endif %} -->
+
 <div>
     {% for subject in subjectList %}
     <h2 id="{{subject.id}}">{{subject.name}}</h2>
@@ -122,5 +156,47 @@ subjectList = thisFamily[0].species | sort: "name" %} {% endif %} {% endfor %}
         </ol>
     </small>
     {% endif %}
+    {% endfor %}
+
+    {% for subject in unidentified %}
+    <h3>Images of {{page.order}}</h3>
+    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files
+    | where_exp:"file", "file.name contains prefix" %} {% assign captions =
+    subject.captions %}
+    <div
+        style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 1rem;
+        "
+    >
+        {% for img in images %}
+        <figure
+            style="
+                grid-column: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            "
+        >
+            <a
+                target="_blank"
+                href="{{img.path}}"
+            >
+                <div
+                    class="image-container"
+                    style="background-image: url({{img.path}});"
+                >
+                    <div class="overlay"></div>
+                    <img
+                        alt="Click to embiggen"
+                        src="/images/embiggen.png"
+                    />
+                </div>
+            </a>
+            <figcaption>{{captions[forloop.index0]}}</figcaption>
+        </figure>
+        {% endfor %}
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}

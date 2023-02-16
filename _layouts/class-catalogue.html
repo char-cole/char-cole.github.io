@@ -8,17 +8,40 @@ layout: default
 
 <h2>Catalogue</h2>
 
-{% assign pages = site[page.class] %} {% assign data = site.data[page.class] %}
-
+{% assign pages = site[page.class] %}
+<!--  -->
+{% assign data = site.data[page.class] %}
+<!--  -->
 {% for order_hash in data %}
-    {% assign orderData = order_hash[1] %}
-    <h3 id="{{orderData.name}}">Order {{orderData.name | capitalize}} ({{orderData.common}})</h3>
+<!--  -->
+{% assign orderData = order_hash[1] %}
+<h3 id="{{orderData.name}}">
+    Order {{orderData.name | capitalize}} ({{orderData.common}})
+</h3>
 
-    {% assign sortedFamilies = orderData.families | sort:"name" %}
-    {% for familyData in sortedFamilies %}
-    {% assign familyPage = pages | where_exp:"page", "page.family == familyData.name" | first %}
-    
-    <a href="/{{familyPage.permalink}}">Family {{familyData.name | capitalize}}</a> ({{familyPage.common}})
-    <p><small><i><b>{{familyData.species | size}}</b> species in catalogue</i></small></p>
-    {% endfor %}
+{% if orderData.families %}
+<!--  -->
+{% assign sortedFamilies = orderData.families | sort:"name" %}
+<!--  -->
+{% for familyData in sortedFamilies %}
+<!--  -->
+{% assign familyPage = pages | where_exp:"page", "page.family == familyData.name" | first %}
+
+<a href="/{{familyPage.permalink}}">Family {{familyData.name | capitalize}}</a>
+{% if familyPage.common %} ({{familyPage.common}}) {% endif %}
+<p>
+    <small
+        ><i><b>{{familyData.species | size}}</b> species in catalogue</i></small
+    >
+</p>
 {% endfor %}
+<!--  -->
+{% endif %}
+
+{% if orderData.unidentified %}
+<!--  -->
+See unidentified <a href="/catalogue/{{orderData.name}}">{{orderData.name | capitalize}}</a>
+<!--  -->
+{% endif %}
+{% endfor %}
+
