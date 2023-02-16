@@ -1,6 +1,6 @@
 - name: Nematoda
   level: Phylum
   description: Nematodes, or roundworms, are animals which look similar to eels in shape. They have no eyes or mouth structures, but have a digestive tract which opens at both ends.
-  notes: Nematodes are among the most successful and widespread of all animals and live in almost every ecosystem on earth. They live in water and in soil, even at extreme depths and temperatures. And they are prolific, often found in the millions per square meter. While many ar parasitic, others are crucial to the health of their ecosystems.
+  notes: Nematodes are among the most successful and widespread of all animals and live in almost every ecosystem on earth. They live in water and in soil, even at extreme depths and temperatures. And they are prolific, often found in the millions per square meter. While many are parasitic, others are crucial to the health of their ecosystems.
   imgPrefix: nematoda
   id: nematoda

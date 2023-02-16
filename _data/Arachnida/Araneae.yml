@@ -129,7 +129,7 @@ families:
 
   - name: tetragnathidae
     species:
-      - name: <i>Leucauge argyrobapta </i>
+      - name: <i>Leucauge argyrobapta</i>
         id: l-argyrobapta
         imgPrefix: tla
         common: Mabel Orchard Orb Weaver
@@ -141,3 +141,15 @@ families:
         - Resident <i>L. argyrobapta</i> seen from the side while resting in its web.
         - A (probably juvenile) mabel orchard orb weaver in a damaged web, its dorsal markings visible. Note the pale green color if its prosoma and legs.
         - Found in the mountains of North Carolina, this is probably <i>Leucauge venusta</i>, the orchard orb weaver, resting in its web. This specimen's legs are distinctly green.
+  
+  - name: araneidae
+    species:
+      - name: <i>Gasteracantha cancriformis</i>
+        id: g-cancriformis
+        imgPrefix: agc
+        common: Spiny Orb Weaver
+        notes: This species has many common names, such as Spiny-backed Orb Weaver, Smiley Face Spider, Crablike Orb Weaver, and variations of these. The taxonomic name indicates all of these - <i>Gasteracantha</i> means "thorned belly" while <i>cancriformis</i> means "crab-shaped". Note however that "crab spider" usually refers to an entirely different family, Thomisidae. <i>G. cancriformis</i> is widespread in the Americas.
+        description: This species can vary in color signifcantly. THe legs and prosoma are always black, and quite small relative to the opisthosoma, giving this spider an appearance like an actor in a morph suit and costume. The large opisthosoma has six spikes around the edge and a symmetrical pattern of black spots across the dorsal surface, sometimes looking like a smiple smiley face icon. The surface can be white, to yellow, to red; the spikes can be black or red.
+        captions:
+          - Yellow <i>Gasteracantha cancriformis</i> morph seen at the edge of an urban woodland in its web.
+          - A closer view of the dorsal decoration of this yellow specimen - note the "smiley face" pattern.
