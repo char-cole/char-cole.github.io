@@ -108,44 +108,11 @@ page.family" %}
     {% endif %}
 
     <h3>Images of {{name}}</h3>
-    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files
-    | where_exp:"file", "file.name contains prefix" %} {% assign captions =
+    {% assign prefix = subject.imgPrefix %} {% assign imagesId = site.static_files
+    | where_exp:"file", "file.name contains prefix" %} {% assign captionsId =
     subject.captions %}
-    <div
-        style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 1rem;
-        "
-    >
-        {% for img in images %}
-        <figure
-            style="
-                grid-column: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            "
-        >
-            <a
-                target="_blank"
-                href="{{img.path}}"
-            >
-                <div
-                    class="image-container"
-                    style="background-image: url({{img.path}});"
-                >
-                    <div class="overlay"></div>
-                    <img
-                        alt="Click to embiggen"
-                        src="/images/embiggen.png"
-                    />
-                </div>
-            </a>
-            <figcaption>{{captions[forloop.index0]}}</figcaption>
-        </figure>
-        {% endfor %}
-    </div>
+    
+    {% include image-gallery.html images=imagesId captions=captionsId %}
 
     {% if subject.refs %}
     <small>
@@ -160,43 +127,11 @@ page.family" %}
 
     {% for subject in unidentified %}
     <h3>Images of {{page.order}}</h3>
-    {% assign prefix = subject.imgPrefix %} {% assign images = site.static_files
-    | where_exp:"file", "file.name contains prefix" %} {% assign captions =
+    {% assign prefix = subject.imgPrefix %} {% assign imagesUnId = site.static_files
+    | where_exp:"file", "file.name contains prefix" %} {% assign captionsUnId =
     subject.captions %}
-    <div
-        style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 1rem;
-        "
-    >
-        {% for img in images %}
-        <figure
-            style="
-                grid-column: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            "
-        >
-            <a
-                target="_blank"
-                href="{{img.path}}"
-            >
-                <div
-                    class="image-container"
-                    style="background-image: url({{img.path}});"
-                >
-                    <div class="overlay"></div>
-                    <img
-                        alt="Click to embiggen"
-                        src="/images/embiggen.png"
-                    />
-                </div>
-            </a>
-            <figcaption>{{captions[forloop.index0]}}</figcaption>
-        </figure>
-        {% endfor %}
-    </div>
+
+    {% include image-gallery.html images=imagesUnId captions=captionsUnId %}
+    
     {% endfor %}
 </div>

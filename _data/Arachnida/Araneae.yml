@@ -149,7 +149,32 @@ families:
         imgPrefix: agc
         common: Spiny Orb Weaver
         notes: This species has many common names, such as Spiny-backed Orb Weaver, Smiley Face Spider, Crablike Orb Weaver, and variations of these. The taxonomic name indicates all of these - <i>Gasteracantha</i> means "thorned belly" while <i>cancriformis</i> means "crab-shaped". Note however that "crab spider" usually refers to an entirely different family, Thomisidae. <i>G. cancriformis</i> is widespread in the Americas.
-        description: This species can vary in color signifcantly. THe legs and prosoma are always black, and quite small relative to the opisthosoma, giving this spider an appearance like an actor in a morph suit and costume. The large opisthosoma has six spikes around the edge and a symmetrical pattern of black spots across the dorsal surface, sometimes looking like a smiple smiley face icon. The surface can be white, to yellow, to red; the spikes can be black or red.
+        description: This species can vary in color signifcantly. The legs and prosoma are always black, and quite small relative to the opisthosoma, giving this spider an appearance like an actor in a morph suit and costume. The large opisthosoma has six spikes around the edge and a symmetrical pattern of black spots across the dorsal surface, sometimes looking like a smiple smiley face icon. The surface can be white, to yellow, to red; the spikes can be black or red.
         captions:
-          - Yellow <i>Gasteracantha cancriformis</i> morph seen at the edge of an urban woodland in its web.
-          - A closer view of the dorsal decoration of this yellow specimen - note the "smiley face" pattern.
+        - Yellow <i>Gasteracantha cancriformis</i> morph seen at the edge of an urban woodland in its web.
+        - A closer view of the dorsal decoration of this yellow specimen - note the "smiley face" pattern.
+
+  - name: agelenidae
+    species:
+      - name: <i>Barronopsis speciosa</i>
+        id: b-spp
+        imgPrefix: abspp
+        notes: Members of this genus cannot be confidently identified without examination of microscopic genitalia, as several extremely similar species live in the USA, but the images below are most likely <i>Barronopsis texana</i> based on its range. However, it is also possible some are <i>Agelenopsis</i>, "grass spiders," which looks similar. However, these two were found in lairs at chest height, in tree branches.
+        description: This spider has regular dark bands on its legs as well as two dark stripes down the dorsal prosoma. It has dark spots around its eyes and a "mustache" or "smiley face" marking below.
+        captions:
+        - Captured with my Sony a7 II, this specimen can be better identified as a member of <i>Barronopsis</i>. Here its dorsal patterns are on display, clearly distinguishing it from another common genus <i>Agelenopsis</i>, which looks more similar to <i>Rabidosa rabida</i>.
+        - A second shot of the same specimen, focusing on its prosoma.
+        - This web was found at around chest height in urban woods.
+        - Another (likely) <i>Barronopsis texana</i>, photographed from the side, also found in tree branches.
+      - name: <i>Agelenopsis speciosa</i>
+        id: a-spp
+        imgPrefix: aaspp
+        notes: Members of this genus cannot be confidently identified without examination of microscopic genitalia, as several extremely similar species live in the USA. Additionally, this genus looks similar to <i>Barronopsis</i>, so I may have confused images of the two. However, each of these spiders was found in a lair in the grass, and this genus is known as "grass spiders". Additionally, these do not have the characteristic "smiley face" apparent on the <i>Barronopsis</i>.
+        captions:
+        - The first <i>Agelenopsis</i> I found, illuminated with a headlamp and captured with a Pixel 5.
+        - The second <i>Agelenopsis</i> I found in the woods near my home. Some of its eyes can be spotted by the reflection of my headlamp.
+        - Grass spider tightly packed in its lair in the grass. Like many web-living spiders, it will only flee if and when its web is touched.
+        - One of many other (likely) <i>Agelenopsis</i> living in a web lair in the grass that same day. In some areas, there were up to 6 lairs in arms' reach.
+
+
+
