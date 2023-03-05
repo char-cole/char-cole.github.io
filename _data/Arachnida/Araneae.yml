@@ -39,6 +39,17 @@ families:
         description: Highly sexually dimorphic. Males have long, dark first legs and broad white bands around their brown bodies, as well as large pedipalps white white bands. Females are mostly a pale tan color with less distinct first legs.
         captions:
         - Adult male <i>H. palmarum</i> climbing up my shirt.
+      - name: <i>Metacyrba taeniola</i>
+        id: m-taeniola
+        imgPrefix: smt
+        description: Very dark brown to black overall. Below the femurs, the legs are red-brown. The first legs are robust and more black. A thin white line circles the prosoma and two broken white lines mark the opisthosoma.
+        notes: Appearance is similar to other species of <i>Metacyrba</i>, but can be distinguished by the shape of the white markings and the leg coloration, as well as being larger. Sometimes considered to have two subspecies, <i>M. taeniola taeniola</i> and <i>M. taeniola similis</i>.
+        captions:
+        - In this photo <i>Metacyrba taeniola</i>'s characteristic white dorsal markings can be seen, as well as distinct black and dark amber sections of the leg.
+        - This image of a <i>M. taeniola</i> shows the coloration and markings distinctly, with nice detail on the leg hairs.
+        - This specimen was dangling from a silk drop line indoors and adjusting its position frequently, often raising or lowering itself.
+        - Here the specimen has everted its entire body to manipulate its drop line. Notice also the "scattered light hairs on the femur" (Rose, 2022) of the first legs.
+
 
   - name: corinnidae
     species:
