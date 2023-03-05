@@ -28,10 +28,10 @@ families:
       - name: <i>Habronattus coecatus</i>
         id: h-coecatus
         imgPrefix: shc
-        description: Though males of genus Habronattus are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely but uncertain identification.
+        description: Though males of genus <i>Habronattus</i> are quite colorful and are called "paradise spiders", females are largely grey and indistinct. <i>H. coecatus</i> happens to have the plainest females commonly found in my area, making the images below a likely but uncertain identification.
         captions:
-        - Dull female jumping spider, likely <i>Habronattus coecatus</i>, on a green leaf.
-        - Front-facing shot of the same <i>Habronattus spp.</i>
+        - Grey female jumping spider with indistinct markings, likely <i>Habronattus coecatus</i>, on a green leaf.
+        - Front-facing shot of the same <i>Habronattus</i> sp.
       - name: <i>Hentzia palmarum</i>
         id: h-palmarum
         common: Common Hentz Jumper
@@ -93,7 +93,7 @@ families:
         description: Confusingly named, this spider is best identified by contrasting its very dark legs with its tan body. The Texas Brown Tarantula, on the other hand, is more evenly brown all over. However, Rose[1] seems to describe both as the same species with high variation.
         notes: Females of this genus can live at least 4 decades and rarely leave their dens; males wander in spring and fall looking for mates, and only survive a couple years at maturity.
         captions:
-        - A poor picture taken in surprise, at a distance, of a (probably male) <i>Aphonopelma spp.</i> out wandering Davis Mountains State Park in September.
+        - A poor picture taken in surprise, at a distance, of a (probably male) <i>Aphonopelma</i> sp. out wandering Davis Mountains State Park in September.
         - A likely <i>Aphonopelma anax</i> crossing a hiking trail in Big Bend National Park in late August.
         refs:
         - <i>Spiders of North America</i>, Sarah Rose, 2022
@@ -167,9 +167,9 @@ families:
 
   - name: agelenidae
     species:
-      - name: <i>Barronopsis speciosa</i>
-        id: b-spp
-        imgPrefix: abspp
+      - name: <i>Barronopsis</i> sp.
+        id: b-sp
+        imgPrefix: absp
         notes: Members of this genus cannot be confidently identified without examination of microscopic genitalia, as several extremely similar species live in the USA, but the images below are most likely <i>Barronopsis texana</i> based on its range. However, it is also possible some are <i>Agelenopsis</i>, "grass spiders," which looks similar. However, these two were found in lairs at chest height, in tree branches.
         description: This spider has regular dark bands on its legs as well as two dark stripes down the dorsal prosoma. It has dark spots around its eyes and a "mustache" or "smiley face" marking below.
         captions:
@@ -177,9 +177,9 @@ families:
         - A second shot of the same specimen, focusing on its prosoma.
         - This web was found at around chest height in urban woods.
         - Another (likely) <i>Barronopsis texana</i>, photographed from the side, also found in tree branches.
-      - name: <i>Agelenopsis speciosa</i>
-        id: a-spp
-        imgPrefix: aaspp
+      - name: <i>Agelenopsis</i> sp.
+        id: a-sp
+        imgPrefix: aasp
         notes: Members of this genus cannot be confidently identified without examination of microscopic genitalia, as several extremely similar species live in the USA. Additionally, this genus looks similar to <i>Barronopsis</i>, so I may have confused images of the two. However, each of these spiders was found in a lair in the grass, and this genus is known as "grass spiders". Additionally, these do not have the characteristic "smiley face" apparent on the <i>Barronopsis</i>.
         captions:
         - The first <i>Agelenopsis</i> I found, illuminated with a headlamp and captured with a Pixel 5.
