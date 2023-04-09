@@ -111,6 +111,14 @@ families:
         - This Rabid Wolf Spider was disturbed by the grass being cut and retreated up onto the side of an urban house. This specimen clearly displays another identifying feature, a "feathered" pattern in the lateral dark bands of the opisthosoma. The large opisthosoma indicates a female.
         - Though not easily determined from the photo, this was the largest <i>R. rabida</i> I have ever seen; it was spotted in a suburban garden at night in a yard full of dozens of other specimens. Note the high contrast between the pale chelicerae and the dark stripes running down them. As a mature specimen, this must be female because its legs are all the same color.
         - A roughly lit specimen seen by a paved urban nature trail at night. In addition to the visible chelicerae stripes and the lateral band "feathering", the mature male's dark first legs are unique to this species.
+      - name: <i>Schizocosa ocreata</i>
+        id: s-ocreata
+        imgPrefix: lso
+        common: Brushlegged Wolf Spider
+        description: Common among Lycosidae, this species has a central cream- or tan-colored band down its prosoma with dark brow bands to either side. In this species, the central band is wider than in many others, and the darker bands do not contain prominent radial lines (as in members of genus Hogna, for example). This species also has "hairier" legs than most other Lycosidae. However, as with most wolf spiders, members of Schizocosa are difficult to confidently identify without microscopic examination.
+        captions:
+        - Though not certain without seeing the opisthosoma (obscured by young), I believe this adult female spider on my porch is an example of <i>Schizocosa ocreata</i>.
+        - A closer picture of this <i>S. ocreata</i>'s young clinging on to their mother. Wolf spider young look somewhat like greenish nodules when riding on their mother, but closer examination reveals their tangled legs.
 
   - name: theridiidae
     species:
