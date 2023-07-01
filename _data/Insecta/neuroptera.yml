@@ -1,0 +1,18 @@
+name: neuroptera
+common: Net-winged Insects
+families:
+  - name: chrysopidae
+    species:
+      - name: <i>Chrysoperla sp.</i>
+        id: c-sp
+        imgPrefix: ccsp
+        common: Common Green Lacewing
+        captions:
+          - A junk bug, or green lacewing larva, hidden under its collection of debris while traveling on a plucked plant stem. The debris appears to contain flower parts as well as small exoskeletons of prey.
+          - Perhaps confused by being transported, the lacewing larva has deposited its camouflage and crawls around the plant stem uncovered.
+          - Finishing its exploration, the junk bug returns to its junk.
+          - Here the <i>Chrysoperla</i> larva has hoisted its debris pile back onto its back and travels on. Close examination shows the form of the insect's legs and mandibles underneath the debris pile.
+          - An adult <i>Chrysoperla sp.</i> having found its way indoors. Its bright green coloration is common, and species-level identification is difficult.
+          - Here the characteristic "lace" of the adult green lacewing's wings can be seen clearly.
+        description: As adults, these are long, bright green insects with long antennae and large, translucent wings webbed with green veins. As larvae, they are flat and tan with long, curved mandibles.
+        notes: Identification of this family is quite difficult, even to the genus level. <i>Chrysoperla</i> seems likely based on light research, but I have low confidence.
