@@ -132,6 +132,15 @@ families:
         - Probable <i>Latrodectus geometricus</i> spotted in a characteristic "tangle web" over a small hollow in the transition zone between the Mojave & Colorado deserts of southern California.
         - Pedipalps focused - This specimen appears to have large, prominent pedipalps, indicating it a mature male.
         - Hourglass focused - Note the signature hourglass shape on the ventral opisthosoma. Although the overall coloration makes identification difficult, this shape is telling.
+      
+      - name: <i>Theridion murarium</i>
+        id: t-murarium
+        imgPrefix: ttm
+        description: Females have a very large, nearly spherical opisthosoma. First legs are longer than others. Prosoma is primarily tan to red. Legs are pale with tan or dark bands, with medium hairs. Opisthosoma is speckled brown with a wide, pale median band bordered by thick dark lines running the entire length on the anterior side.
+        notes: This genus may be very difficult to confidently identify without microscopic examination of genitalia. In the particular specimen I've photographed, I got no clear shots of the prosoma, so identification can't be certain.
+        captions:
+        - This specimen is likely a female member of genus <i>Theridion</i>, and probably <i>T. murarium</i> based on the distinct patterning. However, the prosoma is far more red than others identified online; this could easily be result of dietary factors though.
+        - Quite skittish, this spider was difficult to photograph in its web. It frequently retreated to a crevice in the wall when I approached. Here it can be seen in a defensive posture with its legs retracted.
 
   - name: thomisidae
     species:
