@@ -1,6 +1,18 @@
 - name: Nematoda
   level: Phylum
-  description: Nematodes, or roundworms, are animals which look similar to eels in shape. They have no eyes or mouth structures, but have a digestive tract which opens at both ends.
   notes: Nematodes are among the most successful and widespread of all animals and live in almost every ecosystem on earth. They live in water and in soil, even at extreme depths and temperatures. And they are prolific, often found in the millions per square meter. While many are parasitic, others are crucial to the health of their ecosystems.
+  description: Nematodes, or roundworms, are animals which look similar to eels in shape. They have no eyes or mouth structures, but have a digestive tract which opens at both ends.
   imgPrefix: nematoda
   id: nematoda
+
+- name: Rotifera
+  level: Phylum
+  notes: Rotifers are animals with about 1000 cells, depending on the species (in rotifers, this number of cells does not change over their lifespan). They mostly live in fresh water, and vary in behavior from free-swimming, to substrate-crawling, to permanently fixed position. They are often quite easy to identify if the corona and/or mastax can be seen (although there are other creatures with structures similar to the corona). However, some species may not have a visible mastax. Many can also be identified by their feeding behavior of alternating between a fully extended tubelike state, with corona open and cilia beating, and a compressed spheroid shape.
+  description: Rotifers (from Latin for "wheel-bearing"), also called "wheel animals", are named for their feeding structure called the corona, which opens up during feeding and beats the water with many cilia. This motion appears like a spinning wheel. The corona funnels food into the mouth, an unremarkable structure, which in turn channels food to the mastax, a large internal structure which crushes food. The mastax is highly visible in many rotifers (because microbial bodies are transparent to us) and comprised of powerful muscles and a pair of calcified jawlike structures, similar to a beak. Rotifers are further characterized by their "foot" at the opposite end; many species use this to grasp a surface and stay planted while feeding, and some move about with their foot.
+  imgPrefix: rotifera
+  id: rotifera
+  captions:
+    - A close-up shot of two rotifers in their compressed state, not currently feeding. The mastax of each is clearly visible - it is the most distinct feature, somewhat darker in color than the surrounding body, appearing somewhat like one or two eyes.
+    - A colony of rotifers displays a range of shapes they can form. Notice the ciliated corona on some specimens - it appears almost like a walrus's mouth when open. It can be used both for feeding and for swimming. In addition, the foot can be seen on some specimens; notice the tail end with two tentacle-like protrusions.
+    - Another colony of rotifers, clinging to some algae with their feet and feeding with their coronas opened. Rotifers, at least of this type, tend to feed by cycling between full extension and compression, perhaps to better digest while compressed.
+    - The same colony photographed four minutes later. Rotifers are often quite active and can be seen moving in real time, so the shift in position from the previous photo to this one probably represents dozens of compression-extension cycles for the ones feeding.
