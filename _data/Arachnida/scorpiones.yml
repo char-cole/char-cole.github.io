@@ -1,0 +1,16 @@
+name: scorpiones
+common: Scorpions
+families:
+  - name: buthidae
+    species:
+      - name: <i>Centruroides vittatus</i>
+        id: c-vittatus
+        imgPrefix: bcc
+        common: Striped Bark Scorpion
+        description: The striped bark scorpion is pale tan all over with two broad, dark lines running parallel down the dorsal side of the carapace. It also has a dark triangle around the eyes. They also have narrow pedipalps (used as pincers) and stinger. Adults of this species are less than 3 inches in length.
+        notes: This scorpion is extremely common and is found in a variety of biomes, from deserts to forests. <i>C. vittatus</i> has a painful and dangerous sting. Like all true scorpions, the striped bark scorpion glows bright cyan under ultraviolet (UV) light. Reasons for this effect are yet unknown.
+        captions:
+          - A striped bark scorpion climbing into the grass after rapidly crossing a paved biking path.
+          - Another image of this <i>C. vittatus</i> entering the grass. Its movement became more erratic when entering the chaotic three-dimensional environment of the grass leaves.
+          - A glowing <i>C. vittatus</i> seen at night under an ultraviolet flashlight navigating low-cut grass.
+          - A second shot of the striped bark scorpion glowing under UV light while navigating grass. Here its eyes can be seen as a dark, non-glowing spot on its head.
