@@ -50,6 +50,14 @@ families:
         - This image of a <i>M. taeniola</i> shows the coloration and markings distinctly, with nice detail on the leg hairs.
         - This specimen was dangling from a silk drop line indoors and adjusting its position frequently, often raising or lowering itself.
         - Here the specimen has everted its entire body to manipulate its drop line. Notice also the "scattered light hairs on the femur" (Rose, 2022) of the first legs.
+      - name: <i>Platycryptus sp.</i>
+        id: p-sp
+        imgPrefix: spsp
+        description: The two members of this genus in question bear similar markings - rough-edged, grey or tan mottled bands down the center of the opisthosoma and prosoma; and solid, dark flanks on the opisthosoma. Legs are mottled light and dark greys. Bodies of all <i>Platycryptus</i> are very hairy and flatter than most jumping spiders.
+        notes: Two similar species, <i>P. undatus</i> and <i>P. californicus</i>, are difficult to tell apart, although their range has little to no overlap. However, this specimen was found in West Texas, where neither range appears to extend.
+        captions:
+          - A <i>Platycryptus</i> jumping spider found on the brushed metal surface of a grill. Its extremely dark coloration looks to me more like <i>P. californicus</i> in this photo.
+          - Another shot of the specimen next to my arm hairs for scale. The low quality of these photos makes it difficult to be sure which species of <i>Platycryptus</i> I have found, but <i>P. undatus</i> is known in much of Texas and may have spread west.
 
 
   - name: corinnidae
