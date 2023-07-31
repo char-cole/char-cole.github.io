@@ -92,6 +92,13 @@ families:
         - A vivid <i>P. viridans</i> with barely visible chevron markings, resting in excellent camouflage on a basil leaf.
         - An extraordinarily large and colorful specimen (likely female based on size), holding a first tarsus to its chelicerae.
         - Another shot of the same specimen, with brightly colored and distinct chevrons visible.
+      - name: <i>Oxyopes scalaris</i>
+        id: o-scalaris
+        imgPrefix: oos
+        common: Western Lynx Spider
+        description: The Western Lynx spider is rather compact and mostly tan & brown, similar to many other species of Lynx Spiders. This species has highly variable coloration, but it does not share its range with other members of Oxyopidae that have similar patterning. In particular, this species tends to have darker sides and a light or white central band down most of its prosoma and opisthosoma, and there are never distinct vertical stripes (distinguishing this species from the Striped Lynx Spider). Typical of Lynx Spiders, <i>Oxyopes scalaris</i> is fairly small and has large, distinct leg hairs/spines.
+        captions:
+        - This female Western Lynx Spider, guarding her egg sac, was one of the first I found in my patio garden which helped me develop a keen interest in spiders. She laid her eggs on the underside of a succulent leaf and remained until they hatched - an event I unfortunately did not witness.
 
   - name: theraphosidae
     species:
