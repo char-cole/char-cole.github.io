@@ -83,7 +83,11 @@ is able to see with optical tools. In particular, I am an avid practitioner of
 photograph many non-spider arthropods as well as microorganisms of all domains
 of life.
 
-See my <a href="/catalogue">photography catalogue</a>.
+See my <a href="/catalogue">photography catalogue</a>. Recommended subjects:
+
+- <a href="/catalogue/microbes#rotifera">Rotifers</a>, microbes that slap food into their huge grinding jaws with a ring of tiny cilia.
+- <a href="/catalogue/chrysopidae#c-sp">Green Lacewings</a>, beautiful flying insects which, in their larval forms, carry around corpses of their prey as camouflage.
+- <a href="/catalogue/salticidae#p-clarus">Brilliant Jumping Spider</a>, one of the cutest spiders with short fuzzy legs and bright coloration.
 
 ## other interests
 

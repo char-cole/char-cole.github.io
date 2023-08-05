@@ -135,6 +135,14 @@ families:
         captions:
         - Though not certain without seeing the opisthosoma (obscured by young), I believe this adult female spider on my porch is an example of <i>Schizocosa ocreata</i>.
         - A closer picture of this <i>S. ocreata</i>'s young clinging on to their mother. Wolf spider young look somewhat like greenish nodules when riding on their mother, but closer examination reveals their tangled legs.
+      - name: <i>Hogna antelucana</i> or <i>Hogna labrea</i>
+        id: h-antelucana
+        imgPrefix: lha
+        description: These two species are visually identical, yet highly variable in colors and markings. Typically there is a pale median band down the prosoma flanked by dark radial lines. The opisthosoma may have distinct rows of dark markings or it may have very little marking. Adults can range from about 13mm - 18mm in body length, not especially large but noticeable.
+        notes: These species can only be distinguished with microscopic examination of the genitalia. Further, I can't be confident my specimen is even a member of genus Hogna; this is my best guess based on range and sample images of these and other species of wolf spider. However, the size and arrangement of the eyes marks this specimen unmitakeably as a wolf spider.
+        captions:
+        - This wolf spider specimen was seen at night in the desert near Big Bend National Park. The large size and central positioning of the anterior eyes is easily visible in bright lighting; beyond that, its markings are not especially distinct. However, the dark radial lines on the prosoma are enough to rule out many types of wolf spider.
+        - A darker picture in better focus of the same specimen shows better detail on the legs, prosoma, and chelicerae, but none bear markings distinct enough for high confidence in identification. The beautiful radial lines on the prosoma are easily seen. 
 
   - name: theridiidae
     species:
