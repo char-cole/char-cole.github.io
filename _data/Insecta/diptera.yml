@@ -1,0 +1,14 @@
+name: diptera
+common: True Flies
+families:
+  - name: asilidae
+    species:
+      - name: Unknown Asilidae in Texas
+        common: Robber Flies
+        id: unknown
+        imgPrefix: dax
+        captions:
+          - An injured robber fly resting on the sidewalk in late summer. Although I beleive it was alive, it did not respond to any motion or light touch.
+          - The fly is clearly missing most of its left first leg, perhaps a recent injury. The charateristic "dip" between its enormous eyes and of course its single pair of wings are hallmarks of a true fly.
+          - A different robber fly is here found dead, grasping its prey, a paper wasp. I've lifted them on a twid for a better view but the lighting was poor.
+          - Placed back on the ground, the robber fly and its prey can be clearly seen. Although on a bike path they do not appear crushed so it is unclear what killed them.
