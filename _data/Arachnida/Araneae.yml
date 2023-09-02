@@ -178,6 +178,14 @@ families:
         - Yellow <i>Mecaphesa asperata</i> waiting for prey on a flower, with a very small ant approaching. Note the faint dark stripes on the opisthosoma.
         - The same <i>M. asperata</i> pictured from the side. While the legs are uniformly colored, the leg spines and opisthosoma markings give this species away.
         - A greenish northern crab spider on a sunflower. This species can take several days to change color, so this specimen may be in the process of improving its camouflage.
+      - name: <i>Mecaphesa celer</i>
+        id: m-celer
+        imgPrefix: tmc
+        common: Swift Crab Spider
+        description: This spider is highly variable in coloration, and displays extreme sexual size dimorphism, with females being up to twice the size of males. The first two pairs of legs are significantly longer than the last two pairs. Legs and body are covered in stiff black spines (setae). Typically this species ranges from pale green to yellow to white in color. Opisthosoma markings are variable but typically appear as symmetrical pairs of dark spots or triangles.
+        captions:
+        - A very small, perhaps juvenile crab spider pictured through a jeweller's hand lens. This specimen is likely the Swift Crab Spider based on the opisthosoma patterning, but members of <i>Mecaphesa</i> can be difficult to identify due to high variation.
+        - More of the same <i>M. celer</i> specimen, a dark yellow but partially transparent crab spider with distinct black setae (often called bristles or hairs) all over.
 
   - name: tetragnathidae
     species:
