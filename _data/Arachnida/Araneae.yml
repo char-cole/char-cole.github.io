@@ -186,6 +186,12 @@ families:
         captions:
         - A very small, perhaps juvenile crab spider pictured through a jeweller's hand lens. This specimen is likely the Swift Crab Spider based on the opisthosoma patterning, but members of <i>Mecaphesa</i> can be difficult to identify due to high variation.
         - More of the same <i>M. celer</i> specimen, a dark yellow but partially transparent crab spider with distinct black setae (often called bristles or hairs) all over.
+      - name: Unidentified Crab Spiders
+        id: unidentified
+        imgPrefix: txx
+        captions:
+        - A crab spider seen in the Blue Ridge Mountains. Unfortunately I wasn't abel to get any high quality photos of this spider. Its red, yellow, and green coloration is unusual, but I suspect it is a member of genus <i>Mecaphesa</i>.
+        - The same crab spider pictured previously. Some indistinct markings can be seen on the opisthosoma, as well as darker bands on either side of the prosoma which are common among Thomisidae.
 
   - name: tetragnathidae
     species:
