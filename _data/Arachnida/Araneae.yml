@@ -127,14 +127,15 @@ families:
         - This Rabid Wolf Spider was disturbed by the grass being cut and retreated up onto the side of an urban house. This specimen clearly displays another identifying feature, a "feathered" pattern in the lateral dark bands of the opisthosoma. The large opisthosoma indicates a female.
         - Though not easily determined from the photo, this was the largest <i>R. rabida</i> I have ever seen; it was spotted in a suburban garden at night in a yard full of dozens of other specimens. Note the high contrast between the pale chelicerae and the dark stripes running down them. As a mature specimen, this must be female because its legs are all the same color.
         - A roughly lit specimen seen by a paved urban nature trail at night. In addition to the visible chelicerae stripes and the lateral band "feathering", the mature male's dark first legs are unique to this species.
-      - name: <i>Schizocosa ocreata</i>
-        id: s-ocreata
-        imgPrefix: lso
-        common: Brushlegged Wolf Spider
-        description: Common among Lycosidae, this species has a central cream- or tan-colored band down its prosoma with dark brow bands to either side. In this species, the central band is wider than in many others, and the darker bands do not contain prominent radial lines (as in members of genus Hogna, for example). This species also has "hairier" legs than most other Lycosidae. However, as with most wolf spiders, members of Schizocosa are difficult to confidently identify without microscopic examination.
+      - name: Unidentified Wolf Spiders
+        id: unidentified
+        imgPrefix: lxx
+        description: All Lycosidae mothers, unique among spiders, carry their newly hatched young on their opisthosoma for some time. Because identification of wolf spiders can already be quite difficult, I am not able to confidently identify either of these specimens I've spotted with young.
         captions:
-        - Though not certain without seeing the opisthosoma (obscured by young), I believe this adult female spider on my porch is an example of <i>Schizocosa ocreata</i>.
-        - A closer picture of this <i>S. ocreata</i>'s young clinging on to their mother. Wolf spider young look somewhat like greenish nodules when riding on their mother, but closer examination reveals their tangled legs.
+        - This adult female wolf spider was seen carrying her young across my porch at night. Despite its encumbrance, this spider was able to move at full speed when startled.
+        - A closer picture of this wolf spider's young clinging to their mother. The greenish semitransparent carapaces of the young are clearly visible; look closely to see their tangled legs wrapped around one another.
+        - This wolf spider family was seen on a wooded hike late at night. Despite the striking spots on the legs and the distinct radial lines on the prosoma, I can't be certain of a genus for this specimen without seeing underneath its young.
+        - These wolf spider young can be seen more closely in this photo. Distinct dark markings on their carapaces can be made out, as well as what appears to be the chelicerae or pedipalps of one facing directly at the camera.
       - name: <i>Hogna antelucana</i> or <i>Hogna labrea</i>
         id: h-antelucana
         imgPrefix: lha
