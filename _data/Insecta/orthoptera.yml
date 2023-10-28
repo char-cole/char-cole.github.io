@@ -1,0 +1,12 @@
+name: orthoptera
+common: Grasshoppers and Crickets
+families:
+  - name: acrididae
+    species:
+      - name: <i>Aidemona azteca</i>
+        common: Aztec spur-throat
+        id: a-azteca
+        imgPrefix: aaa
+        description: <i>Aidemona azteca</i> is a grasshopper notable for its vivid coloration and compact, cherubic shape as a nymph. They are quite small, but actually fairly common in areas where they live. As they mature, their carapace turns mottled grey-brown and they shape lengthens into a much more traditional and unremarkable grasshopper appearance.
+        captions: 
+          - A colorful Aztec spur-throated grasshopper nymph found in an urban lawn. The distinct yellow, black, and white stripes on the body, as well as the orange legs, indicate that this is an immature specimen.

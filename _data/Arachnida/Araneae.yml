@@ -121,13 +121,13 @@ families:
         imgPrefix: lrr
         common: Rabid Wolf Spider
         description: Primarily tan with brown marking, this species has long legs and a flat posture. Although many wolf spiders look similar to the untrained eye, there are key details which make this species unmistakable. If seen from the front, narrow brown vertical stripes extend the length of the center of its chelicerae. If seen from above, the median (central) dark band extends all the way down the opisthosoma to the spinnerets and contains faint tan chevrons toward the latter end.
-        notes: Despite its absurdly fearsome name, this spider is not especially aggressive or dangerous in any way. Nor, in fact, is it rare. In my personal experience it is by far the most common spider in urban and suburban central Texas. Take a headlamp into any yard or open area at night and see the grass light up; each point is almost certainly a set of <i>Rabidosa rabida</i> eyes.
+        notes: Despite its absurdly fearsome name, this spider is not especially aggressive or dangerous in any way. Nor is it rare; at least in urban and suburban central Texas it is among the most common spiders encountered in a grassy yard or field.
         captions:
         - <i>Rabidosa rabida</i> seen at night on a concrete sidewalk. Note the distinctive chevrons on the median dark band. The small size of the opisthosoma indicates a male; the dark front legs indicate a mature male.
         - This Rabid Wolf Spider was disturbed by the grass being cut and retreated up onto the side of an urban house. This specimen clearly displays another identifying feature, a "feathered" pattern in the lateral dark bands of the opisthosoma. The large opisthosoma indicates a female.
         - Though not easily determined from the photo, this was the largest <i>R. rabida</i> I have ever seen; it was spotted in a suburban garden at night in a yard full of dozens of other specimens. Note the high contrast between the pale chelicerae and the dark stripes running down them. As a mature specimen, this must be female because its legs are all the same color.
         - A roughly lit specimen seen by a paved urban nature trail at night. In addition to the visible chelicerae stripes and the lateral band "feathering", the mature male's dark first legs are unique to this species.
-      - name: Unidentified Wolf Spiders
+      - name: Unidentified Wolf Spiders with Young
         id: unidentified
         imgPrefix: lxx
         description: All Lycosidae mothers, unique among spiders, carry their newly hatched young on their opisthosoma for some time. Because identification of wolf spiders can already be quite difficult, I am not able to confidently identify either of these specimens I've spotted with young.
@@ -144,6 +144,12 @@ families:
         captions:
         - This wolf spider specimen was seen at night in the desert near Big Bend National Park. The large size and central positioning of the anterior eyes is easily visible in bright lighting; beyond that, its markings are not especially distinct. However, the dark radial lines on the prosoma are enough to rule out many types of wolf spider.
         - A darker picture in better focus of the same specimen shows better detail on the legs, prosoma, and chelicerae, but none bear markings distinct enough for high confidence in identification. The beautiful radial lines on the prosoma are easily seen. 
+      - name: <i>Tigrosa georgicola</i>
+        id: t-georgicola
+        imgPrefix: ltg
+        description: <i>T. georgicola</i> has dark prosoma a very narrow pale band down the center and radial lines which may be faint or distinct. The legs are tan or light grey with dark banding. The opisthosoma is lighter in color with small dark chevrons. Its spinnerets are visible protruding from the posterior end of the opsithosoma. Markings on the legs, prosoma, and opsithosoma are faint but just visible in this lighting.
+        captions:
+        - An adult <i>Tigrosa georgicola</i> spotted at night in leaf litter on the edge of a forest. Its legs are set widely in a typical symmetrical hunting posture, holding it above multiple uneven surfaces.
 
   - name: theridiidae
     species:
